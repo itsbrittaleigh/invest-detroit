@@ -1,0 +1,46 @@
+.recognition-section {
+  padding-top: 100px;
+
+  h3 {
+    color: $yellow;
+    font-weight: $bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    margin-top: 0;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0 0 60px 0;
+    margin-top: 60px 0 0;
+    border-bottom: 2px solid $gray;
+
+    @media only screen and (min-width: 600px) {
+      column-count: 2;
+      column-gap: 24px;
+    }
+
+    @media only screen and (min-width: $breakpoint) {
+      column-gap: 48px;
+    }
+  }
+
+  .member__name {
+    color: $dark_gray;
+    font-family: 'Arial', 'sans-serif';
+    font-weight: bold;
+    display: block;
+  }
+
+  .member__title {
+    color: $dark_gray;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

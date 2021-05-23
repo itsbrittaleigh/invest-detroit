@@ -1,0 +1,264 @@
+.timeline-nav {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 12px;
+  }
+
+  li {
+    width: 50%;
+    padding-bottom: 12px;
+
+    @media only screen and (min-width: $breakpoint) {
+      width: 33%;
+    }
+  }
+}
+
+.timeline__subtitle {
+  background-color: #F5F5F5;
+  padding-top: 10px;
+}
+
+.timeline__year {
+  color: $black;
+  background-color: #F5F5F5;
+  font-size: 48px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.timeline-section {
+  background-color: #F5F5F5;
+}
+
+.timeline {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-item__image {
+  width: calc(100% + 48px);
+  margin: 0 -24px -24px;
+
+  @media only screen and (max-width: $breakpoint) {
+    margin: 12px -24px -30px;
+  }
+}
+
+.timeline-item--annual-report {
+  color: $black;
+  background-color: $gray;
+  padding: 20px;
+  max-width: 300px;
+  margin: 48px auto;
+
+  span {
+    display: block;
+    color: $black;
+    text-align: center;
+    font-size: 18px;
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  strong {
+    display: inline-block;
+    margin-left: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
+.timeline-item--milestone {
+  background-color: #7F7971;
+  color: $white;
+}
+
+.timeline-item--partnership {
+  background-color: $blue;
+  color: $black;
+}
+
+.timeline-item--fund {
+  background-color: $yellow;
+  color: $black;
+}
+
+.timeline-item--venture {
+  background-color: $red;
+  color: $white;
+}
+
+.timeline-item--project {
+  background-color: $teal;
+  color: $white;
+}
+
+.timeline-item {
+  max-width: 400px;
+  margin: 0 auto 24px;
+  padding: 24px;
+}
+
+.timeline-item__subtitle {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-weight: $semibold;
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.timeline-item__title {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.years .section:nth-child(even) {
+  background: $black;
+
+  .subtitle,
+  .timeline__year {
+    color: $white;
+    background-color: $black;
+  }
+}
+
+.timeline-section {
+  position: relative;
+
+  &:before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: #E7E7E8;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 1px);
+  }
+
+  &:nth-child(even) {
+    &:before {
+      background-color: #4A494B;
+    }
+  }
+}
+
+@media only screen and (min-width: $breakpoint) {
+  .timeline__break-fix {
+    display: block;
+    height: 200px;
+  }
+
+  .timeline {
+    column-count: 2;
+    max-width: 900px;
+    margin: 60px auto 0;
+
+    li {
+      display: grid;
+      grid-template-rows: 1fr auto;
+      break-inside: avoid;
+    }
+  }
+
+  .timeline-item {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      top: 24px;
+      left: -10px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      content: '';
+    }
+
+    &:after {
+      content: '';
+      width: 15px;
+      height: 15px;
+      border-radius: 15px;
+      position: absolute;
+      top: 27px;
+      left: -36px;
+    }
+
+    &.is-left {
+      &:before {
+        right: -10px;
+        left: auto;
+        top: 80px;
+      }
+
+      &:after {
+        right: -36px;
+        left: auto;
+        top: 83px;
+      }
+    }
+
+    &.timeline-item--milestone {
+      &:before {
+        border-right: 10px solid #7F7971;
+      }
+
+      &:after {
+        background-color: #7F7971;
+      }
+
+      &.is-left {
+        &:before {
+          border-right: none;
+          border-left: 10px solid #7F7971;
+        }
+      }
+    }
+
+    &.timeline-item--partnership {
+      &:before {
+        border-right: 10px solid $blue;
+      }
+
+      &:after {
+        background-color: $blue;
+      }
+
+      &.is-left {
+        &:before {
+          border-right: none;
+          border-left: 10px solid $blue;
+        }
+      }
+    }
+
+    &.timeline-item--project {
+      &:before {
+        border-right: 10px solid $teal;
+      }
+
+      &:after {
+        background-color: $teal;
+      }
+
+      &.is-left {
+        &:before {
+          border-right: none;
+          border-left: 10px solid $teal;
+        }
+      }
+    }
+  }
+}

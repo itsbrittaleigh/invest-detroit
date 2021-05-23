@@ -1,0 +1,6 @@
+main img {
+  /* only render the image when in viewport */
+  content-visibility: auto;
+  height: auto;
+  max-width: 100%;
+}

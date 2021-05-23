@@ -1,0 +1,53 @@
+h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media only screen and (min-width: $breakpoint) {
+    font-size: 60px;
+  }
+}
+
+h2 {
+  letter-spacing: 0.03em;
+  font-size: 24px;
+
+  @media only screen and (min-width: $breakpoint) {
+    font-size: 30px;
+  }
+}
+
+h3 {
+  color: $dark_gray;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+
+  @media only screen and (min-width: $breakpoint) {
+    font-size: 24px;
+  }
+}
+
+.lead {
+  font-size: 1.2em;
+}
+
+.arial {
+  font-family: 'Arial', sans-serif;
+}
+
+.text--small {
+  font-size: 0.9em;
+}
+
+.subtitle {
+  font-family: 'Arial', sans-serif;
+  color: $dark_gray;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  margin: 0;
+}

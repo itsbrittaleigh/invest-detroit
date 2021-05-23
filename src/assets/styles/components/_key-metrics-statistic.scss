@@ -1,0 +1,53 @@
+.key-metrics-statistic__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (min-width: 680px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .key-metrics-statistic {
+      width: 48%;
+    }
+  }
+
+  @media only screen and (min-width: $breakpoint) {
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    width: 100%;
+
+    .key-metrics-statistic {
+      width: auto;
+    }
+
+    .key-metrics-statistic img {
+      height: 20px;
+      width: auto;
+    }
+  }
+}
+
+.key-metrics-statistic {
+  margin-bottom: 30px;
+}
+
+.key-metrics-statistic img {
+  width: 20px;
+}
+
+.key-metrics-statistic__label {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Knockout', sans-serif;
+  margin: 6px 0;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.key-metrics-statistic__number {
+  font-size: 36px;
+  margin: 0;
+  font-family: 'Knockout', sans-serif;
+  letter-spacing: 3px;
+}

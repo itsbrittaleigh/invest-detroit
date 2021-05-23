@@ -1,0 +1,46 @@
+.statistic {
+  color: $white;
+  position: relative;
+}
+
+.statistic__number {
+  font-size: 36px;
+  letter-spacing: 2px;
+  line-height: 1;
+  margin: 0;
+}
+
+.statistic__label {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  margin: 6px 0 0;
+}
+
+.statistic-image__container {
+  position: relative;
+}
+
+.statistic-image__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  object-fit: cover;
+}
+
+.statistic-image__label {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: $black;
+  display: inline-block;
+  padding: 3px 6px;
+  margin: 0;
+  color: $white;
+  position: absolute;
+}
+
+.statistic--large {
+  .statistic__number {
+    font-size: 48px;
+  }
+}

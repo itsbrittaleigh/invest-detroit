@@ -1,0 +1,26 @@
+.heading-icon__container {
+  background-color: transparent;
+  background-image: radial-gradient(black 20%, transparent 20%),
+    radial-gradient(black 20%, transparent 20%);
+  background-position: 0 0, 7px 7px;
+  background-size: 7px 7px;
+  border-radius: 100px;
+  height: 100px;
+  position: relative;
+  width: 100px;
+
+  &.heading-icon__container--light {
+    background-image: radial-gradient($gray 20%, transparent 20%),
+      radial-gradient($gray 20%, transparent 20%);
+  }
+}
+
+.heading-icon {
+  border-radius: 40px;
+  height: 40px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
