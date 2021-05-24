@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Celebrating from '../components/Celebrating';
 import About from '../components/About';
-import ImpactNumbers from '../components/ImpactNumbers';
+// import ImpactNumbers from '../components/ImpactNumbers';
 import Timeline from '../components/Timeline';
 import WhatsNext from '../components/WhatsNext';
 import Subfooter from '../components/Subfooter';
