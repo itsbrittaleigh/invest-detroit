@@ -3,11 +3,12 @@ import { BarChart, Bar, ResponsiveContainer, Tooltip } from 'recharts';
 import data from '../data/BarChart';
 
 const ImpactNumbers = () => {
+  const formatNumber = (n) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   const renderTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length) {
       return (
         <div className="custom-tooltip">
-          <p className="custom-tooltip__label">{`${label + 1995}: $${payload[0].value}`}</p>
+          <p className="custom-tooltip__label">{`${label + 1995}: $${formatNumber(payload[0].value)}`}</p>
         </div>
       );
     }
@@ -26,10 +27,10 @@ const ImpactNumbers = () => {
         </div>
         <h3 className="color--black weight--bold">Key Metrics (Since 1995)</h3>
         <div className="statistic statistic--large">
-          <p className="statistic__number text--center">$409,325,034</p>
+          <p className="statistic__number text--center">$439,632,386</p>
           <p className="statistic__label text--center">Dollars deployed</p>
         </div>
-        <div style={{ maxWidth: '700px', margin: '48px auto' }}>
+        <div style={{ maxWidth: '700px', margin: '48px auto 0' }}>
           <ResponsiveContainer width="100%" height={200}>
             <BarChart data={data} width={150} height={40}>
               <Tooltip content={renderTooltip} cursor={false} />
@@ -37,6 +38,10 @@ const ImpactNumbers = () => {
             </BarChart>
           </ResponsiveContainer>
         </div>
+        <p className="text--center" style={{ marginBottom: '60px' }}>
+          * 2020 Deployment total includes COVID Relief efforts and Strategic Neighborhood Fund
+          program funding
+        </p>
     
         <h3 className="color--black weight--bold">Key Metrics (2000 - 2020)</h3>
         <p className="text--center" style={{margin: '0 auto 60px', maxWidth: '500px'}}>
@@ -50,13 +55,13 @@ const ImpactNumbers = () => {
             <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
           </div>
           <div className="statistic">
-            <p className="statistic__number large">$2,699,231,244</p>
+            <p className="statistic__number large">$2,894,601,873</p>
             <p className="statistic__label large">Dollars Leveraged</p>
           </div>
         </div>
         <div className="statistic__section space">
           <div className="statistic">
-            <p className="statistic__number">406</p>
+            <p className="statistic__number">749</p>
             <p className="statistic__label">Projects, businesses, and companies supported</p>
           </div>
           <div className="statistic-image__container">
@@ -64,7 +69,7 @@ const ImpactNumbers = () => {
             <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
           </div>
           <div className="statistic">
-            <p className="statistic__number">5,622,125</p>
+            <p className="statistic__number">6,068,507</p>
             <p className="statistic__label">Total square footage of commercial and retail spaces developed</p>
           </div>
         </div>
@@ -74,11 +79,11 @@ const ImpactNumbers = () => {
             <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
           </div>
           <div className="statistic">
-            <p className="statistic__number">4,986</p>
+            <p className="statistic__number">5,070</p>
             <p className="statistic__label">Housing units created</p>
           </div>
           <div className="statistic">
-            <p className="statistic__number">798</p>
+            <p className="statistic__number">836</p>
             <p className="statistic__label">Affordable housing units created</p>
           </div>
         </div>
@@ -88,7 +93,7 @@ const ImpactNumbers = () => {
             <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
           </div>
           <div className="statistic">
-            <p className="statistic__number">10,982</p>
+            <p className="statistic__number">12,848</p>
             <p className="statistic__label">Jobs created or retained</p>
           </div>
         </div>

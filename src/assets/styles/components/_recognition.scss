@@ -21,11 +21,18 @@
     @media only screen and (min-width: 600px) {
       column-count: 2;
       column-gap: 24px;
+      li {
+        break-inside: avoid;
+      }
     }
 
     @media only screen and (min-width: $breakpoint) {
       column-gap: 48px;
     }
+  }
+
+  li {
+    margin-bottom: 20px;
   }
 
   .member__name {
@@ -41,6 +48,5 @@
     font-style: italic;
     font-size: 14px;
     display: block;
-    margin-bottom: 20px;
   }
 }
