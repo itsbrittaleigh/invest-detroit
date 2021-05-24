@@ -35,28 +35,28 @@ const KeyMetrics = () => {
                 className={`info-scroller__item-1 ${activeIndex === 0 ? 'is-active' : ''}`}
                 onClick={() => setActiveIndex(0)}
               >
-                <span class="info-scroller__item-marker">1</span>
+                <span className="info-scroller__item-marker">1</span>
                 Real Estate
               </li>
               <li
                 className={`info-scroller__item-2 ${activeIndex === 1 ? 'is-active' : ''}`}
                 onClick={() => setActiveIndex(1)}
               >
-                <span class="info-scroller__item-marker">2</span>
+                <span className="info-scroller__item-marker">2</span>
                 Small Business
               </li>
               <li
                 className={`info-scroller__item-3 ${activeIndex === 2 ? 'is-active' : ''}`}
                 onClick={() => setActiveIndex(2)}
               >
-                <span class="info-scroller__item-marker">3</span>
+                <span className="info-scroller__item-marker">3</span>
                 Commercial & Industrial
               </li>
               <li
                 className={`info-scroller__item-4 ${activeIndex === 3 ? 'is-active' : ''}`}
                 onClick={() => setActiveIndex(3)}
               >
-                <span class="info-scroller__item-marker">4</span>
+                <span className="info-scroller__item-marker">4</span>
                 Venture Investments
               </li>
             </ul>

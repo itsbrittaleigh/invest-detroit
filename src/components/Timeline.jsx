@@ -277,7 +277,7 @@ const Timeline = () => (
                 {TimelineItems[2008].map((item) => (
                   <TimelineItem item={item} />
                 ))}
-                <span class="timeline__break-fix" />
+                <span className="timeline__break-fix" />
               </ul>
             </div>
         </Element>
@@ -326,7 +326,7 @@ const Timeline = () => (
                 {TimelineItems[1997].map((item) => (
                   <TimelineItem item={item} />
                 ))}
-                <span class="timeline__break-fix" />
+                <span className="timeline__break-fix" />
               </ul>
             </div>
         </Element>
@@ -339,7 +339,7 @@ const Timeline = () => (
                 {TimelineItems[1996].map((item) => (
                   <TimelineItem item={item} />
                 ))}
-                <span class="timeline__break-fix" />
+                <span className="timeline__break-fix" />
               </ul>
             </div>
         </Element>

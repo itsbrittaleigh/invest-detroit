@@ -65,7 +65,7 @@ const Subfooter = () => {
   }
 
   return (
-    <section class="hero hero__subfooter">
+    <section className="hero hero__subfooter">
       <div id="hero_image_scroller">
         {heroTextItems.map((item, idx) => (
           <img
@@ -76,11 +76,11 @@ const Subfooter = () => {
           />
         ))}
       </div>
-      <div class="wrapper">
-        <h1 class="hero__title">
+      <div className="wrapper">
+        <h1 className="hero__title">
           25 years of
           <br />
-          <span class="hero__subtitle-container" id="hero_text_scroller">
+          <span className="hero__subtitle-container" id="hero_text_scroller">
             {heroTextItems.map((item, idx) => (
               <span
                 class={`hero__subtitle ${idx === activeIndex ? 'is-active' : ''}`}

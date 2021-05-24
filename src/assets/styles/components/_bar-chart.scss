@@ -1,0 +1,15 @@
+.custom-tooltip {
+  padding: 6px;
+  background-color: $black;
+  color: $white;
+  border-radius: 2px;
+}
+
+.custom-tooltip__label {
+  margin: 0;
+}
+
+.recharts-tooltip-cursor {
+  display: none;
+  visibility: hidden;
+}

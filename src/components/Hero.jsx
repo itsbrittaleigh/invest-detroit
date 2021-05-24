@@ -57,7 +57,7 @@ const Hero = () => {
   }, 3500);
 
   return (
-    <section id="hero" class="hero">
+    <section id="hero" className="hero">
       <div id="hero_image_scroller">
         {heroTextItems.map((item, idx) => (
           <img
@@ -68,11 +68,11 @@ const Hero = () => {
           />
         ))}
       </div>
-      <div class="wrapper">
-        <h1 class="hero__title">
+      <div className="wrapper">
+        <h1 className="hero__title">
           25 years of
           <br />
-          <span class="hero__subtitle-container" id="hero_text_scroller">
+          <span className="hero__subtitle-container" id="hero_text_scroller">
             {heroTextItems.map((item, idx) => (
               <span
                 class={`hero__subtitle ${idx === activeIndex ? 'is-active' : ''}`}

@@ -25,28 +25,28 @@ const About = () => {
                 className={`info-scroller__item-1 ${activeFocusIndex === 0 ? 'is-active' : ''}`}
                 onClick={() => setActiveFocusIndex(0)}
               >
-                <span class="info-scroller__item-marker">1</span>
+                <span className="info-scroller__item-marker">1</span>
                 Real Estate
               </li>
               <li
                 className={`info-scroller__item-2 ${activeFocusIndex === 1 ? 'is-active' : ''}`}
                 onClick={() => setActiveFocusIndex(1)}
               >
-                <span class="info-scroller__item-marker">2</span>
+                <span className="info-scroller__item-marker">2</span>
                 Small Business
               </li>
               <li
                 className={`info-scroller__item-3 ${activeFocusIndex === 2 ? 'is-active' : ''}`}
                 onClick={() => setActiveFocusIndex(2)}
               >
-                <span class="info-scroller__item-marker">3</span>
+                <span className="info-scroller__item-marker">3</span>
                 Commercial & Industrial
               </li>
               <li
                 className={`info-scroller__item-4 ${activeFocusIndex === 3 ? 'is-active' : ''}`}
                 onClick={() => setActiveFocusIndex(3)}
               >
-                <span class="info-scroller__item-marker">4</span>
+                <span className="info-scroller__item-marker">4</span>
                 Venture Investments
               </li>
             </ul>
@@ -101,10 +101,10 @@ const About = () => {
             </div>
           )}
           {activeFocusIndex === 3 && (
-            <div class="info-scroller__content">
-              <img class="info-scroller__image" src="https://placekitten.com/200/200" alt="" />
+            <div className="info-scroller__content">
+              <img className="info-scroller__image" src="https://placekitten.com/200/200" alt="" />
               <div>
-                <h4 class="info-scroller__heading color--teal">Venture Investments</h4>
+                <h4 className="info-scroller__heading color--teal">Venture Investments</h4>
                 <p>
                   ID Ventures scales promising early-stage ventures into thriving companies that
                   help support the state’s economy, provide jobs to local talent, and bolster
@@ -127,28 +127,28 @@ const About = () => {
                 className={`info-scroller__item-1 ${activeGoalIndex === 0 ? 'is-active' : ''}`}
                 onClick={() => setActiveGoalIndex(0)}
               >
-                <span class="info-scroller__item-marker">1</span>
+                <span className="info-scroller__item-marker">1</span>
                 Strengthen Neighborhoods
               </li>
               <li
                 className={`info-scroller__item-2 ${activeGoalIndex === 1 ? 'is-active' : ''}`}
                 onClick={() => setActiveGoalIndex(1)}
               >
-                <span class="info-scroller__item-marker">2</span>
+                <span className="info-scroller__item-marker">2</span>
                 Increase Density
               </li>
               <li
                 className={`info-scroller__item-3 ${activeGoalIndex === 2 ? 'is-active' : ''}`}
                 onClick={() => setActiveGoalIndex(2)}
               >
-                <span class="info-scroller__item-marker">3</span>
+                <span className="info-scroller__item-marker">3</span>
                 Grow Job Opportunities
               </li>
               <li
                 className={`info-scroller__item-4 ${activeGoalIndex === 3 ? 'is-active' : ''}`}
                 onClick={() => setActiveGoalIndex(3)}
               >
-                <span class="info-scroller__item-marker">4</span>
+                <span className="info-scroller__item-marker">4</span>
                 Support Inclusivity
               </li>
             </ul>
