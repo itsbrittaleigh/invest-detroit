@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import dollarsDeployedIcon from '../../assets/images/icon__dollars-deployed.svg';
 import dollarsLeveragedIcon from '../../assets/images/icon__dollars-leveraged.svg';
 import jobsCreatedIcon from '../../assets/images/icon__jobs-created.svg';
 
 const KeyMetrics = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
-
   return (
     <section id="about" className="section bg--black">
       <div className="wrapper">
