@@ -1,20 +1,7 @@
 import React, { useState } from 'react';
 import dollarsDeployedIcon from '../../assets/images/icon__dollars-deployed.svg';
 import dollarsLeveragedIcon from '../../assets/images/icon__dollars-leveraged.svg';
-import projectsSupportedIcon from '../../assets/images/icon__projects-supported.svg';
 import jobsCreatedIcon from '../../assets/images/icon__jobs-created.svg';
-import dollarsDeployedIconRed from '../../assets/images/icon__dollars-deployed--red.svg';
-import dollarsLeveragedIconRed from '../../assets/images/icon__dollars-leveraged--red.svg';
-import projectsSupportedIconRed from '../../assets/images/icon__projects-supported--red.svg';
-import jobsCreatedIconRed from '../../assets/images/icon__jobs-created--red.svg';
-import dollarsDeployedIconBlue from '../../assets/images/icon__dollars-deployed--blue.svg';
-import dollarsLeveragedIconBlue from '../../assets/images/icon__dollars-leveraged--blue.svg';
-import projectsSupportedIconBlue from '../../assets/images/icon__projects-supported--blue.svg';
-import jobsCreatedIconBlue from '../../assets/images/icon__jobs-created--blue.svg';
-import dollarsDeployedIconTeal from '../../assets/images/icon__dollars-deployed--teal.svg';
-import dollarsLeveragedIconTeal from '../../assets/images/icon__dollars-leveraged--teal.svg';
-import projectsSupportedIconTeal from '../../assets/images/icon__projects-supported--teal.svg';
-import jobsCreatedIconTeal from '../../assets/images/icon__jobs-created--teal.svg';
 
 const KeyMetrics = () => {
   const [activeIndex, setActiveIndex] = useState(0);
