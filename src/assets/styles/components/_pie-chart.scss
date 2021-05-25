@@ -1,0 +1,27 @@
+.pie-chart__section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px 0;
+  border-top: 1px solid #626366;
+}
+
+.pie-chart__image {
+  width: 100%;
+  max-width: 400px;
+}
+
+.pie-section__label {
+  color: $yellow;
+  width: 40%;
+}
+
+.col-lt {
+  width: 40%;
+}
+
+.pie-chart__section--financials {
+  padding: 50px 50px;
+  justify-content: flex-start;
+}

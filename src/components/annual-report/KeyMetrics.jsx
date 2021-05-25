@@ -28,7 +28,7 @@ const KeyMetrics = () => {
           </div>
           <h2 className="color--white">Key Metrics</h2>
         </div>
-        <div className="info-scroller annual-report">
+        {/* <div className="info-scroller annual-report">
           <nav className="info-scroller__navigation">
             <ul className="swiper-pagination" id="swiper__focus-pagination">
               <li
@@ -165,6 +165,30 @@ const KeyMetrics = () => {
             </div>
           </div>
           )}
+        </div> */}
+        <div className="pie-chart__section">
+          <div className="key-metrics-statistic">
+            <img className="key-metrics-statistic__image" src={dollarsDeployedIcon} alt="Two people" />
+            <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
+            <p className="key-metrics-statistic__number color--white">$49,048,984</p>
+          </div>
+          <img className="pie-chart__image" src="https://placekitten.com/400/200" alt="" />
+        </div>
+        <div className="pie-chart__section">
+          <div className="key-metrics-statistic">
+            <img className="key-metrics-statistic__image" src={dollarsLeveragedIcon} alt="Two people" />
+            <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
+            <p className="key-metrics-statistic__number color--white">$272,595,214</p>
+          </div>
+          <img className="pie-chart__image" src="https://placekitten.com/400/200" alt="" />
+        </div>
+        <div className="pie-chart__section">
+          <div className="key-metrics-statistic">
+            <img className="key-metrics-statistic__image" src={jobsCreatedIcon} alt="Two people" />
+            <p className="key-metrics-statistic__label color--white">Jobs Created or Retained</p>
+            <p className="key-metrics-statistic__number color--white">2,000</p>
+          </div>
+          <img className="pie-chart__image" src="https://placekitten.com/400/200" alt="" />
         </div>
       </div>
     </section>

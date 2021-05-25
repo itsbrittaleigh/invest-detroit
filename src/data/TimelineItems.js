@@ -1,10 +1,43 @@
+import Zoom from '../assets/images/timeline/2020_Zoom-Photo.png';
+import PizzaBar from '../assets/images/timeline/2019_Detroit-Pizza-Bar.jpg';
+import AMIC from '../assets/images/timeline/2019_AMIC-10-Years.jpg';
+import Map18 from '../assets/images/timeline/2018_Map.jpg';
+import Siegel from '../assets/images/timeline/2018_B-Siegel.jpg';
+import Coe from '../assets/images/timeline/2017_The-Coe.jpg';
+import Norma from '../assets/images/timeline/2017_Norma-Gs.jpg';
+import Metropolitan from '../assets/images/timeline/2017_Metropolitan-Rendering.jpg';
+import Kamper from '../assets/images/timeline/2017_Kamper-and-Stevens.jpg';
+import Murray from '../assets/images/timeline/2016_The-Murray.jpg';
+import Strategic from '../assets/images/timeline/2016_Strategic-Neighborhood-Fund.jpg';
+import Willis from '../assets/images/timeline/2014_Woodward-Willis.jpg';
+import M1 from '../assets/images/timeline/2014_M1-Rail.jpg';
+import Hacker from '../assets/images/timeline/2014_Hacker.jpg';
+import Titanium from '../assets/images/timeline/2014_Global-Titanium.jpg';
+import TODMap from '../assets/images/timeline/2013_TOD-Map.jpg';
+import Seva from '../assets/images/timeline/2012_Seva.jpg';
+import Meijer from '../assets/images/timeline/2012_Meijer.jpg';
+import TODPlan from '../assets/images/timeline/2011_TOD-Plan-Cover.jpg';
+import CHASS from '../assets/images/timeline/2011_CHASS.jpg';
+import Auburn from '../assets/images/timeline/2011_Auburn.jpg';
+import Capital from '../assets/images/timeline/2010_Capital-Park.jpg';
+import Broderick from '../assets/images/timeline/2010_Broderick.jpg';
+import SuperBowl from '../assets/images/timeline/2005_Super-Bowl.jpg';
+import Kennedy from '../assets/images/timeline/2005_Kennedy-Square-Campus-Martius.jpg';
+import Cullen from '../assets/images/timeline/2003_Matt-Cullen.jpg';
+import Kales from '../assets/images/timeline/2003_Kales-Building.jpg';
+import Dave from '../assets/images/timeline/2001_Dave-Blaszkiewicz-CEO.jpg';
+import Ferry from '../assets/images/timeline/1997_Ferry-Building.jpg';
+import Report from '../assets/images/timeline/1996_Investment-Report.jpg';
+import Harris from '../assets/images/timeline/1995_Karen-Harris.jpg';
+import Board from '../assets/images/timeline/1995_DIF-Board.jpg';
+
 const TimelineItems2020 = [
   {
     type: 'milestone',
     title: 'In response to the crisis caused by COVID-19, Invest Detroit launches vital support tools—all while working from home.',
     subtitle: 'Milestone',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Zoom,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -44,7 +77,7 @@ const TimelineItems2019 = [
     title: 'Financing provided to Akunna Olumba and Marcus Jones of Legacy City Group to renovate a vacant commercial space in the Livernois-McNichols neighborhood to open the Detroit Pizza Bar—a restaurant that will hire and train local residents for food-service careers and support local farmers.',
     subtitle: 'Project / Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: PizzaBar,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -54,7 +87,7 @@ const TimelineItems2019 = [
     title: 'ID Ventures’ Accelerate Michigan Innovation Competition (AMIC) celebrates its 10th anniversary. AMIC is a startup pitch competition that showcases Michigan companies and provides up to $1 million in prizes annually.',
     subtitle: 'Milestone',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: AMIC,
       alt: 'Kitten',
     },
   },
@@ -66,7 +99,7 @@ const TimelineItems2018 = [
     title: 'With generous support from philanthropic and corporate partners, the Strategic Neighborhood Fund announces its expansion from three to 10 neighborhoods across Detroit.',
     subtitle: 'Milestone',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Map18,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -82,7 +115,7 @@ const TimelineItems2018 = [
     title: 'Invest Detroit provides financing to developer Matt Hessler to renovate the historic B. Siegel Co. building, a once popular women’s clothing store in the 50s and 60s, at the corner of 7-Mile Road and Livernois—a neighborhood targeted for Strategic Neighborhood Fund investment. This mixed-use project will create 10 residential units and 19,000 square feet of ground floor commercial space creating over 30 new jobs.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Siegel,
       alt: 'Kitten',
     },
   },
@@ -100,7 +133,7 @@ const TimelineItems2017 = [
     title: 'The Strategic Neighborhood Fund’s first project, The Coe at West Village, is completed in the Islandview/Greater Villages neighborhood. Cliff Brown of Woodborn Partners developed this mixed-use project that supported the creation of a commercial corridor in the area while providing mixed-income housing options.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Coe,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -110,7 +143,7 @@ const TimelineItems2017 = [
     title: 'With financing from Invest Detroit, the Roxbury Group completes the Kamper and Stevens Apartments, preserving and improving one of the last remaining senior affordable housing projects in Detroit’s central business district.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Kamper,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -120,7 +153,7 @@ const TimelineItems2017 = [
     title: 'The Means Group and the Roxbury Group receive Invest Detroit financing to support the renovation of the Metropolitan Building into a new hotel. Vacant since 1979, and know by many for the full-size tree growng on its roof, the Metropolitan was one of the last historic vacant building downtown to be saved from demotion.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Metropolitan,
       alt: 'Kitten',
     },
   },
@@ -129,7 +162,7 @@ const TimelineItems2017 = [
     title: 'The small business team supports Norma G’s, a Caribbean restaurant in the Jefferson Chalmers neighborhood, helping to spark activity along the East Jefferson corridor.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Norma,
       alt: 'Kitten',
     },
   },
@@ -146,7 +179,7 @@ const TimelineItems2016 = [
     title: 'With support from the local philanthropic community, Invest Detroit and the City of Detroit launch the Strategic Neighborhood Fund in three Detroit neighborhoods. This first iteration of the fund piloted methods and targeted investments to support vibrant Detroit neighborhoods.',
     subtitle: 'Milestone',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Strategic,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -155,11 +188,16 @@ const TimelineItems2016 = [
     type: 'project',
     title: 'ID Ventures portfolio company Gemphire becomes its first startup to transition from a private to public company through an Initial Public Offering (IPO).',
     subtitle: 'Project/Business',
+    className: 'is-left',
   },
   {
     type: 'project',
     title: 'Through a resident engagement and planning process as part of the Strategic Neighborhood Fund work, The Murray was identified as a priority for neighborhood residents. Invest Detroit is working with Emery Matthews to turn this 20-year abandoned building into 12 apartments, three of which will be affordable at 60% of the area median income.',
     subtitle: 'Project/Business',
+    image: {
+      src: Murray,
+      alt: 'Kitten',
+    },
   },
 ];
 
@@ -169,7 +207,7 @@ const TimelineItems2014 = [
     title: 'As part of JPMorgan Chase’s long-term commitment to Detroit, Invest Detroit creates the Chase Invest Detroit Fund (CIDF), greatly advancing our work in financing catalytic real estate projects and commercial and industrial efforts. This funding helps support projects like the expansion of Global Titanium, a manufacturing company providing hundreds of local jobs.',
     subtitle: 'Partnership',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Titanium,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -185,7 +223,7 @@ const TimelineItems2014 = [
     title: 'ID Ventures launches the Hacker Fellows Program that supports the career efforts of emerging tech talent by offering paid fellowships and internships with Michigan startups.',
     subtitle: 'Milestone',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Hacker,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -200,7 +238,7 @@ const TimelineItems2014 = [
     title: 'Through the Core City Strategic Fund, Invest Detroit works with Midtown Detroit Inc. to finance the new Woodward Willis, a mixed-use building that created commercial and office spaces bringing 37 jobs and up to 100 full-time positions, all while activating a vacant, blighted space. This would become the home of our venture investment team ID Ventures.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Willis,
       alt: 'Kitten',
     },
   },
@@ -209,7 +247,7 @@ const TimelineItems2014 = [
     title: 'Funding provided for the M-1 RAIL / QLINE, an integral component of the Transit Oriented Development strategy created and supported by community partners, was provided with $18.4M in New Markets Tax Credit (NMTC) allocation. Invest Detroit is also instrumental in attracting additional NMTC allocations totaling $25M to support this catalytic transit project and driving $7B in new investment in the City.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: M1,
       alt: 'Kitten',
     },
   },
@@ -221,7 +259,7 @@ const TimelineItems2013 = [
     title: 'Invest Detroit creates the Core City Strategic Fund to support projects informed by the Transit Oriented Development plan focused on increasing activity and density along the Woodward Corridor. The creation of this fund signals a commitment to the partnership approach of this highly collaborative effort to focus efforts across organizations on specific geographies. This approach will be the seed of the Strategic Neighborhood Fund.',
     subtitle: 'Partnership',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: TODMap,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -234,7 +272,7 @@ const TimelineItems2012 = [
     title: 'With assistance from New Markets Tax Credits, Invest Detroit supports the Gateway Marketplace on 8-mile Road, bringing national grocery chain Meijer and other retailers into Detroit, creating hundreds of jobs and ensuring that residents can shop locally instead of relying on suburban retailers.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Meijer,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -244,7 +282,7 @@ const TimelineItems2012 = [
     title: 'Through the Urban Retail Loan Fund, Invest Detroit finances vegetarian restaurant Seva Detroit to continue the collective work in catalyzing the Midtown neighborhood.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Seva,
       alt: 'Kitten',
     },
   },
@@ -262,7 +300,7 @@ const TimelineItems2011 = [
     title: 'Financing is provided to expand the CHASS Health Care Facility to provide accessible, affordable primary healthcare for underserved residents in Southwest Detroit. Using New Market Tax Credits, the project triples the facility’s patient capacity, created 86 new jobs, and helped retain 58 jobs.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: CHASS,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -271,13 +309,18 @@ const TimelineItems2011 = [
     type: 'project',
     title: 'Partnering with Midtown Detroit Inc. and the Roxbury Group, Invest Detroit funds and co-develops the Auburn – a mixed-use building that created new affordable housing and a retail hub in Midtown Detroit.',
     subtitle: 'Project/Business',
+    image: {
+      src: Auburn,
+      alt: 'Kitten',
+    },
+    className: 'is-left',
   },
   {
     type: 'partnership',
     title: 'The Transit Oriented Development strategy is published. Its objectives are to focus development (including the work of Invest Detroit) to catalyze activity down the Woodward Corridor and to provide infrastructure that connects the districts through the Woodward Light Rail.',
     subtitle: 'Partnership',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: TODPlan,
       alt: 'Kitten',
     },
   }
@@ -294,10 +337,6 @@ const TimelineItems2010 = [
     type: 'milestone',
     title: 'With support from the New Economy Initiative, Invest Detroit creates its venture capital program (now known as ID Ventures) with the launch of the First Step Fund.',
     subtitle: 'Milestone',
-    image: {
-      src: 'https://placekitten.com/600/400',
-      alt: 'Kitten',
-    },
     className: 'is-left',
   },
   {
@@ -305,16 +344,17 @@ const TimelineItems2010 = [
     title: 'Continuing the momentum for partnership and focused investment generated by the Super Bowl of partnership and focused investment, Invest Detroit purchases 1145 Griswold, while partners purchase other neighboring vacant buildings. Together they redevelop these buildings and reactivate Capital Park, transforming this vacant downtown area into a livable space while preserving the structures.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Capital,
       alt: 'Kitten',
     },
+    className: 'is-left',
   },
   {
     type: 'project',
     title: 'Invest Detroit uses the New Markets Tax Credit program to finance renovation of the historic Broderick Tower, which was the third tallest abandoned building in the U.S. at the time of funding. As a gateway building into Downtown, this essential redevelopment project created 125 new apartments and interconnected with other critical Downtown developments and initiatives, including the Downtown Detroit Partnership’s Downtown strategy and the M-1Rail project.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Broderick,
       alt: 'Kitten',
     },
   }
@@ -349,7 +389,7 @@ const TimelineItems2005 = [
     title: 'Motivated by the opportunity to host the 2006 Super Bowl in Detroit, coordinated efforts begin across public, private, and philanthropic partnerships to create lasting, sustainable improvements to the Downtown area, the city’s economic core.',
     subtitle: 'Partnership',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: SuperBowl,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -359,7 +399,7 @@ const TimelineItems2005 = [
     title: 'The Detroit Economic Growth Corporation and the Downtown Detroit Partnership begin to develop a new strategy that focuses partners, including Invest Detroit, on greater collaboration and focused partnership along the Woodward Corridor. The strategy will develop over time and be known as the Transit Oriented Development (TOD)',
     subtitle: 'Partnership',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Kennedy,
       alt: 'Kitten',
     },
   },
@@ -380,7 +420,7 @@ const TimelineItems2003 = [
     title: 'Matt Cullen becomes board chair and encourages the organization to think bigger for larger, more focused impact. Partnership becomes a key value to the work.',
     subtitle: 'Milestone',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Cullen,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -390,7 +430,7 @@ const TimelineItems2003 = [
     title: 'The Ferlito Group receives financing to renovate the Kales Building, serving as a catalyst for redevelopment at Grand Circus Park and creating more new residential units downtown.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Kales,
       alt: 'Kitten',
     },
   },
@@ -402,7 +442,7 @@ const TimelineItems2001 = [
     title: 'Dave Blaszkiewicz is hired as CEO and remains in that position today. Together with then Board Chair Roger Penske and Vice Chair Chip Miller, they rethink the Fund’s strategy to focus more on making projects bankable by bridging financial gaps.',
     subtitle: 'Milestone',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Dave,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -420,7 +460,7 @@ const TimelineItems1997 = [
     title: 'Peter Weipert becomes president of the Detroit Investment Fund and begins to focus more on real estate projects, including the Inn on Ferry Street that converted historic Victoria homes into a thriving bed and breakfast near the Detroit Institute of Arts.',
     subtitle: 'Milestone',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Ferry,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -433,7 +473,7 @@ const TimelineItems1996 = [
     title: 'The Detroit Investment Fund supports its first high-risk projects are supported. The initial focus was on existing companies throughout the city that could grow to create more jobs for Detroiters—companies like Stroh’s Ice Cream which was expanding their Detroit facility at the time and is now home to the Whiskey Factory.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Report,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -446,7 +486,7 @@ const TimelineItems1995 = [
     title: 'The seed of Invest Detroit is planted when member companies of Detroit Renaissance, Inc., now Business Leaders for Michigan, create the Detroit Investment Fund (DIF)—a $52M fund to create jobs, promote business expansion or relocation to Detroit, and increase the city’s population.',
     subtitle: 'Milestone',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Board,
       alt: 'Kitten',
     },
     className: 'is-left',
@@ -456,7 +496,7 @@ const TimelineItems1995 = [
     title: 'Jerry Halperin is hired as president to manage the fund and Karen Harris to setup and create the office. Karen would be with the organization for 23 years and came back to help create this timeline.',
     subtitle: 'Milestone',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Harris,
       alt: 'Kitten',
     },
   }

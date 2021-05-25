@@ -28,7 +28,7 @@ const ImpactNumbers = () => {
         <h3 className="color--black weight--bold">Key Metrics (Since 1995)</h3>
         <div className="statistic statistic--large">
           <p className="statistic__number text--center">$439,632,386</p>
-          <p className="statistic__label text--center">Dollars deployed</p>
+          <p className="statistic__label text--center" style={{ maxWidth: '100%' }}>Dollars deployed</p>
         </div>
         <div style={{ maxWidth: '700px', margin: '48px auto 0' }}>
           <ResponsiveContainer width="100%" height={200}>

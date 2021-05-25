@@ -217,6 +217,8 @@ const Timeline = () => (
                 {TimelineItems[2013].map((item) => (
                   <TimelineItem item={item} />
                 ))}
+                <span className="timeline__break-fix" />
+                <span className="timeline__break-fix" />
               </ul>
             </div>
         </Element>

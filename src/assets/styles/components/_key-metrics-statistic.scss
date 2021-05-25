@@ -28,6 +28,10 @@
   }
 }
 
+.key-metrics-statistic__image {
+  filter: grayscale(100%);
+}
+
 .key-metrics-statistic {
   margin-bottom: 30px;
 }
@@ -50,4 +54,19 @@
   margin: 0;
   font-family: 'Knockout', sans-serif;
   letter-spacing: 3px;
+}
+
+.key-metrics--multiple {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 600px;
+
+  .key-metrics-statistic {
+    width: 100%;
+
+    @media only screen and (min-width: $breakpoint) {
+      width: 48%;
+    }
+  }
 }
