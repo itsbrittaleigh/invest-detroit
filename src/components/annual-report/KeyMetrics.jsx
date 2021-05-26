@@ -1,7 +1,10 @@
 import React from 'react';
 import dollarsDeployedIcon from '../../assets/images/icon__dollars-deployed.svg';
 import dollarsLeveragedIcon from '../../assets/images/icon__dollars-leveraged.svg';
-import jobsCreatedIcon from '../../assets/images/icon__jobs-created.svg';
+import heartIcon from '../../assets/images/icon__heart.svg';
+import CovidRelief from '../../assets/images/covid-relief.svg';
+import DollarsLeveraged from '../../assets/images/dollars-leveraged.svg';
+import Deployment from '../../assets/images/program-deployment.svg';
 
 const KeyMetrics = () => {
   return (
@@ -157,7 +160,7 @@ const KeyMetrics = () => {
             <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
             <p className="key-metrics-statistic__number color--white">$49,048,984</p>
           </div>
-          <img className="pie-chart__image" src="https://placekitten.com/400/200" alt="" />
+          <img className="pie-chart__image" src={Deployment} alt="" />
         </div>
         <div className="pie-chart__section">
           <div className="key-metrics-statistic">
@@ -165,15 +168,15 @@ const KeyMetrics = () => {
             <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
             <p className="key-metrics-statistic__number color--white">$272,595,214</p>
           </div>
-          <img className="pie-chart__image" src="https://placekitten.com/400/200" alt="" />
+          <img className="pie-chart__image" src={DollarsLeveraged} alt="" />
         </div>
         <div className="pie-chart__section">
           <div className="key-metrics-statistic">
-            <img className="key-metrics-statistic__image" src={jobsCreatedIcon} alt="Two people" />
-            <p className="key-metrics-statistic__label color--white">Jobs Created or Retained</p>
+            <img className="key-metrics-statistic__image" src={heartIcon} alt="Two people" />
+            <p className="key-metrics-statistic__label color--white">COVID Relief</p>
             <p className="key-metrics-statistic__number color--white">2,000</p>
           </div>
-          <img className="pie-chart__image" src="https://placekitten.com/400/200" alt="" />
+          <img className="pie-chart__image" src={CovidRelief} alt="" />
         </div>
       </div>
     </section>

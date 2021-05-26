@@ -1,4 +1,5 @@
 import React from 'react';
+import PortfolioComp from '../../assets/images/portfolio-comp.svg';
 
 const Financials = () => {
   return (
@@ -56,7 +57,7 @@ const Financials = () => {
               <p className="key-metrics-statistic__number color--white">$92,212,605</p>
             </div>
           </div>
-          <img className="pie-chart__image" src="https://placekitten.com/400/200" alt="" />
+          <img className="pie-chart__image" src={PortfolioComp} alt="" />
         </div>
       </div>
     </section>

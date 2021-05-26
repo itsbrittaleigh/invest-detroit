@@ -1,4 +1,12 @@
 import React, { useState } from 'react';
+import Commercial from '../assets/images/about/commercial.jpg';
+import Density from '../assets/images/about/density.jpg';
+import Inclusivity from '../assets/images/about/inclusivity.jpg';
+import Jobs from '../assets/images/about/job-opportunities.jpg';
+import Neighborhoods from '../assets/images/about/neighborhoods.jpg';
+import RealEstate from '../assets/images/about/real-estate.jpg';
+import SmallBusiness from '../assets/images/about/small-business.jpg';
+import Venture from '../assets/images/about/venture-capital.jpg';
 
 const About = () => {
   const [activeFocusIndex, setActiveFocusIndex] = useState(0);
@@ -53,7 +61,7 @@ const About = () => {
           </nav>
           {activeFocusIndex === 0 && (
             <div className="info-scroller__content">
-              <img className="info-scroller__image" src="https://placekitten.com/200/200" alt="" />
+              <img className="info-scroller__image" src={RealEstate} alt="" />
               <div>
                 <h4 className="info-scroller__heading color--yellow">Real Estate</h4>
                 <p>
@@ -71,7 +79,7 @@ const About = () => {
           )}
           {activeFocusIndex === 1 && (
             <div className="info-scroller__content">
-              <img className="info-scroller__image" src="https://placekitten.com/200/200" alt="" />
+              <img className="info-scroller__image" src={SmallBusiness} alt="" />
               <div>
                 <h4 className="info-scroller__heading color--red">Small Business</h4>
                 <p>
@@ -87,7 +95,7 @@ const About = () => {
           )}
           {activeFocusIndex === 2 && (
             <div className="info-scroller__content">
-              <img className="info-scroller__image" src="https://placekitten.com/200/200" alt="" />
+              <img className="info-scroller__image" src={Commercial} alt="" />
               <div>
                 <h4 className="info-scroller__heading color--blue">Commercial & Industrial</h4>
                 <p>
@@ -102,7 +110,7 @@ const About = () => {
           )}
           {activeFocusIndex === 3 && (
             <div className="info-scroller__content">
-              <img className="info-scroller__image" src="https://placekitten.com/200/200" alt="" />
+              <img className="info-scroller__image" src={Venture} alt="" />
               <div>
                 <h4 className="info-scroller__heading color--teal">Venture Investments</h4>
                 <p>
@@ -155,7 +163,7 @@ const About = () => {
           </nav>
           {activeGoalIndex === 0 && (
             <div className="info-scroller__content">
-              <img className="info-scroller__image" src="https://placekitten.com/200/200" alt="" />
+              <img className="info-scroller__image" src={Neighborhoods} alt="" />
               <div>
                 <h4 className="info-scroller__heading color--yellow">Strengthen Neighborhoods</h4>
                 <p>
@@ -172,7 +180,7 @@ const About = () => {
           )}
           {activeGoalIndex === 1 && (
             <div className="info-scroller__content">
-              <img className="info-scroller__image" src="https://placekitten.com/200/200" alt="" />
+              <img className="info-scroller__image" src={Density} alt="" />
               <div>
                 <h4 className="info-scroller__heading color--red">Increase Density</h4>
                 <p>
@@ -186,7 +194,7 @@ const About = () => {
           )}
           {activeGoalIndex === 2 && (
             <div className="info-scroller__content">
-              <img className="info-scroller__image" src="https://placekitten.com/200/200" alt="" />
+              <img className="info-scroller__image" src={Jobs} alt="" />
               <div>
                 <h4 className="info-scroller__heading color--blue">Grow Job Opportunities</h4>
                 <p>
@@ -202,7 +210,7 @@ const About = () => {
           )}
           {activeGoalIndex === 3 && (
             <div className="info-scroller__content">
-              <img className="info-scroller__image" src="https://placekitten.com/200/200" alt="" />
+              <img className="info-scroller__image" src={Inclusivity} alt="" />
               <div>
                 <h4 className="info-scroller__heading color--teal">Support Inclusivity</h4>
                 <p>
