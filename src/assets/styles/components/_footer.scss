@@ -19,6 +19,7 @@ address {
 
   span {
     display: block;
+    white-space: nowrap;
   }
 }
 
@@ -69,12 +70,12 @@ a {
   }
 
   .footer__logo {
-    width: 500px;
+    width: 400px;
     margin-right: 60px;
   }
 
   .contact {
-    border-left: 1px solid $gray;
+    border-left: 1px solid #58595B;
     padding-left: 60px;
   }
 

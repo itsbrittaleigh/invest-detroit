@@ -4,14 +4,48 @@
     flex-wrap: wrap;
     margin: 0;
     padding: 12px;
+    list-style-type: none;
   }
 
   li {
     width: 50%;
     padding-bottom: 12px;
+    font-size: 18px;
+    position: relative;
 
-    @media only screen and (min-width: $breakpoint) {
-      width: 33%;
+    &:before {
+      width: 8px;
+      height: 8px;
+      border-radius: 8px;
+      content: '';
+      position: absolute;
+      top: 7px;
+      left: -15px;
+    }
+
+    &.color--red:before {
+      background-color: $red;
+    }
+
+    &.color--blue:before {
+      background-color: $blue;
+    }
+
+    &.color--yellow:before {
+      background-color: $yellow;
+    }
+  }
+
+  @media only screen and (min-width: $breakpoint) {
+    flex-wrap: nowrap;
+
+    li {
+      width: auto;
+      margin-right: 90px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
     }
   }
 }
@@ -22,11 +56,11 @@
 }
 
 .timeline__year {
+  font-weight: 500;
   color: $black;
   background-color: #F5F5F5;
   font-size: 48px;
   letter-spacing: 2px;
-  font-weight: normal;
   margin: 0;
 }
 
@@ -41,11 +75,11 @@
 }
 
 .timeline-item__image {
-  width: calc(100% + 48px);
-  margin: 0 -24px -24px;
+  width: calc(100% + 72px);
+  margin: 36px -36px -36px;
 
   @media only screen and (max-width: $breakpoint) {
-    margin: 12px -24px -30px;
+    margin: 12px -36px -42px;
   }
 }
 
@@ -55,6 +89,11 @@
   padding: 20px;
   max-width: 300px;
   margin: 48px auto;
+  transition: $transition;
+
+  &:hover {
+    background-color: $yellow;
+  }
 
   span {
     display: block;
@@ -76,13 +115,13 @@
 }
 
 .timeline-item--milestone {
-  background-color: #7F7971;
-  color: $white;
+  background-color: $yellow;
+  color: $black;
 }
 
 .timeline-item--partnership {
-  background-color: $blue;
-  color: $black;
+  background-color: $red;
+  color: $white;
 }
 
 .timeline-item--fund {
@@ -96,14 +135,14 @@
 }
 
 .timeline-item--project {
-  background-color: $teal;
-  color: $white;
+  background-color: $blue;
+  color: $black;
 }
 
 .timeline-item {
   max-width: 400px;
   margin: 0 auto 24px;
-  padding: 24px;
+  padding: 36px;
 }
 
 .timeline-item__subtitle {
@@ -116,12 +155,11 @@
   font-size: 12px;
   position: relative;
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 
 .timeline-item__title {
   font-size: 18px;
-  margin-bottom: 12px;
 }
 
 .years .section:nth-child(even) {
@@ -200,34 +238,51 @@
       &:before {
         right: -10px;
         left: auto;
-        top: 80px;
+        top: 72px;
       }
 
       &:after {
-        right: -36px;
+        right: -37px;
         left: auto;
-        top: 83px;
+        top: 75px;
       }
     }
 
     &.timeline-item--milestone {
       &:before {
-        border-right: 10px solid #7F7971;
+        border-right: 10px solid $yellow;
       }
 
       &:after {
-        background-color: #7F7971;
+        background-color: $yellow;
       }
 
       &.is-left {
         &:before {
           border-right: none;
-          border-left: 10px solid #7F7971;
+          border-left: 10px solid $yellow;
         }
       }
     }
 
     &.timeline-item--partnership {
+      &:before {
+        border-right: 10px solid $red;
+      }
+
+      &:after {
+        background-color: $red;
+      }
+
+      &.is-left {
+        &:before {
+          border-right: none;
+          border-left: 10px solid $red;
+        }
+      }
+    }
+
+    &.timeline-item--project {
       &:before {
         border-right: 10px solid $blue;
       }
@@ -240,23 +295,6 @@
         &:before {
           border-right: none;
           border-left: 10px solid $blue;
-        }
-      }
-    }
-
-    &.timeline-item--project {
-      &:before {
-        border-right: 10px solid $teal;
-      }
-
-      &:after {
-        background-color: $teal;
-      }
-
-      &.is-left {
-        &:before {
-          border-right: none;
-          border-left: 10px solid $teal;
         }
       }
     }

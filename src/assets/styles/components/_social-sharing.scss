@@ -12,6 +12,7 @@
 
   img {
     width: 40px;
+    transition: $transition;
   }
 
   p {
@@ -21,5 +22,16 @@
     font-weight: $bold;
     text-align: center;
     font-size: 14px;
+    transition: $transition;
+  }
+
+  button:hover {
+    img {
+      filter: brightness(0) invert(1);
+    }
+
+    p {
+      color: $white;
+    }
   }
 }

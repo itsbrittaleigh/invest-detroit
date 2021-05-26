@@ -53,6 +53,7 @@ const Header = () => {
                   onClick={() => navigateAndClose('celebrating-25-years')}
                   role="link"
                 >
+                  <span className="number">1</span>
                   Celebrating 25 Years
                 </span>
               </li>
@@ -62,6 +63,7 @@ const Header = () => {
                   onClick={() => navigateAndClose('about')}
                   role="link"
                 >
+                  <span className="number">2</span>
                   About
                 </span>
               </li>
@@ -71,6 +73,7 @@ const Header = () => {
                   onClick={() => navigateAndClose('impact-numbers')}
                   role="link"
                 >
+                  <span className="number">3</span>
                   Impact Numbers
                 </span>
               </li>
@@ -80,6 +83,7 @@ const Header = () => {
                   onClick={() => navigateAndClose('timeline')}
                   role="link"
                 >
+                  <span className="number">4</span>
                   Timeline
                 </span>
               </li>
@@ -89,6 +93,7 @@ const Header = () => {
                   onClick={() => navigateAndClose('whats-next')}
                   role="link"
                 >
+                  <span className="number">5</span>
                   What's Next
                 </span>
               </li>

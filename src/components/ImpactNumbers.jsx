@@ -21,7 +21,7 @@ const ImpactNumbers = () => {
       <div className="wrapper">
         <div className="section__heading">
           <div className="heading-icon__container heading-icon__container--light">
-            <img src="https://placekitten.com/50/50" alt="Kitten" className="heading-icon" />
+            <p className="heading-icon is-white">3</p>
           </div>
           <h2 className="color--white">Impact Numbers</h2>
         </div>
@@ -44,11 +44,11 @@ const ImpactNumbers = () => {
         </p>
     
         <h3 className="color--black weight--bold">Key Metrics (2000 - 2020)</h3>
-        <p className="text--center" style={{margin: '0 auto 60px', maxWidth: '500px'}}>
+        {/* <p className="text--center" style={{margin: '0 auto 60px', maxWidth: '500px'}}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ratione tempora, asperiores
           aspernatur vero numquam vitae provident dolorum officiis rerum molestiae obcaecati dicta
           debitis enim necessitatibus tenetur? At, iusto quod!
-        </p>
+        </p> */}
         <div className="statistic__section center">
           <div className="statistic-image__container">
             <p className="statistic-image__label">Investment</p>

@@ -12,6 +12,11 @@
   &.heading-icon__container--light {
     background-image: radial-gradient($gray 20%, transparent 20%),
       radial-gradient($gray 20%, transparent 20%);
+
+    .heading-icon {
+      border-color: $black;
+      color: $black;
+    }
   }
 }
 
@@ -23,4 +28,17 @@
   top: 50%;
   transform: translate(-50%, -50%);
   width: 40px;
+  border: 3px solid $white;
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: $bold;
+  font-size: 28px;
+  margin: 0;
+
+  &.is-white {
+    color: $white !important;
+    border-color: $white !important;
+  }
 }

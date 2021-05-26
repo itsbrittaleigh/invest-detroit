@@ -17,7 +17,7 @@ const About = () => {
       <div className="wrapper">
         <div className="section__heading">
           <div className="heading-icon__container heading-icon__container--light">
-            <img src="https://placekitten.com/50/50" alt="Kitten" className="heading-icon" />
+            <p className="heading-icon">2</p>
           </div>
           <h2>About Invest Detroit</h2>
         </div>
@@ -123,7 +123,7 @@ const About = () => {
           )}
         </div>
     
-        <div className="info-scroller">
+        <div className="info-scroller info-scroller--2">
           <h3>
             Working Together to Achieve
             <br />

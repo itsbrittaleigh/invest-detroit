@@ -3,6 +3,7 @@ h1 {
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 700;
 
   @media only screen and (min-width: $breakpoint) {
     font-size: 60px;
@@ -11,7 +12,7 @@ h1 {
 
 h2 {
   letter-spacing: 0.03em;
-  font-size: 24px;
+  font-size: 28px;
 
   @media only screen and (min-width: $breakpoint) {
     font-size: 30px;
@@ -35,12 +36,16 @@ h3 {
   font-size: 1.2em;
 }
 
+.lead-xl {
+  font-size: 1.3em;
+}
+
 .arial {
   font-family: 'Arial', sans-serif;
 }
 
 .text--small {
-  font-size: 0.9em;
+  font-size: 0.95em;
 }
 
 .subtitle {

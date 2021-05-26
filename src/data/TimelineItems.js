@@ -52,6 +52,7 @@ const TimelineItems2020 = [
     type: 'milestone',
     title: 'With support from the Michigan Economic Development Corporation and the New Economy Initiative, the Tech Startup Stabilization Fund is launched to provide critical capital to Michigan startups impacted by COVID.',
     subtitle: 'Milestone',
+    className: 'is-left',
   },
   {
     type: 'milestone',
@@ -156,6 +157,7 @@ const TimelineItems2017 = [
       src: Metropolitan,
       alt: 'Kitten',
     },
+    className: 'is-left',
   },
   {
     type: 'project',
@@ -232,6 +234,7 @@ const TimelineItems2014 = [
     type: 'partnership',
     title: 'Local Community Development Financial Institutions (CDFI’s) create the Detroit CDFI Coalition to increase collaboration and create shared and focused strategies.',
     subtitle: 'Partnership',
+    className: 'is-left',
   },
   {
     type: 'project',
@@ -371,6 +374,7 @@ const TimelineItems2009 = [
     type: 'milestone',
     title: 'With funding from the Detroit Investment Fund and support from the Michigan Economic Development Corporation, Invest Detroit starts a new small business lending program to support new and existing small businesses. Over the next few years, the Urban Retail Loan Fund will grow with support from partners like Hudson Webber Foundation, W.K. Kellogg Foundation, the Kresge Foundation, and JPMorgan Chase.',
     subtitle: 'Milestone',
+    className: 'is-left',
   },
 ];
 
@@ -398,17 +402,14 @@ const TimelineItems2005 = [
     type: 'partnership',
     title: 'The Detroit Economic Growth Corporation and the Downtown Detroit Partnership begin to develop a new strategy that focuses partners, including Invest Detroit, on greater collaboration and focused partnership along the Woodward Corridor. The strategy will develop over time and be known as the Transit Oriented Development (TOD)',
     subtitle: 'Partnership',
-    image: {
-      src: Kennedy,
-      alt: 'Kitten',
-    },
+    className: 'is-left',
   },
   {
     type: 'project',
     title: 'Invest Detroit provides financing to construct One Kennedy Square, a new landmark office building that helped complete the revitalization of the historic Campus Martius Park area.',
     subtitle: 'Project/Business',
     image: {
-      src: 'https://placekitten.com/600/400',
+      src: Kennedy,
       alt: 'Kitten',
     },
   },
@@ -433,6 +434,7 @@ const TimelineItems2003 = [
       src: Kales,
       alt: 'Kitten',
     },
+    className: 'is-left',
   },
 ];
 

@@ -9,23 +9,21 @@ const Timeline = () => (
     <div className="wrapper">
       <div className="section__heading">
         <div className="heading-icon__container heading-icon__container--light">
-          <img src="https://placekitten.com/50/50" alt="Kitten" className="heading-icon" />
+          <p className="heading-icon">4</p>
         </div>
         <h2>Through the Years</h2>
       </div>
       <div className="indented-section" style={{ maxWidth: '600px' }}>
-        <p className="lead">
+        <p className="lead-xl">
           From a single fund to a dynamic organization with numerous proven strategies and programs,
           follow Invest Detroit’s evolution through some of the projects, milestones, and key partnerships
           along our 25-year history.
         </p>
         <nav className="timeline-nav">
           <ul>
-            <li className="color--yellow">Funds and Loans</li>
-            <li className="color--blue">Partnerships</li>
-            <li className="color--teal">Project Completions</li>
-            <li className="color--dark-gray">Organization Milestones</li>
-            <li className="color--red">ID Ventures Highlights</li>
+            <li className="color--red">Partnerships</li>
+            <li className="color--blue">Project / Business</li>
+            <li className="color--yellow">Milestones</li>
           </ul>
         </nav>
       </div>
@@ -46,7 +44,7 @@ const Timeline = () => (
           </li>
           <li>
             <ScrollLink activeClass="is-active" to="2018" spy smooth offset={-100} duration={500}>
-              2108
+              2018
             </ScrollLink>
           </li>
           <li>
@@ -341,6 +339,7 @@ const Timeline = () => (
                 {TimelineItems[1996].map((item) => (
                   <TimelineItem item={item} />
                 ))}
+                <span className="timeline__break-fix" />
                 <span className="timeline__break-fix" />
               </ul>
             </div>
