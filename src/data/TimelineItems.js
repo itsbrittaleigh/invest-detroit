@@ -34,7 +34,6 @@ import Board from '../assets/images/timeline/1995_DIF-Board.jpg';
 
 const browser = navigator.userAgent;
 const isFirefox = browser.includes('Firefox');
-const isSafari = browser.includes('Safari');
 
 const TimelineItems2020 = [
   {
