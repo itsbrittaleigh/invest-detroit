@@ -146,6 +146,50 @@ const KeyMetrics = () => {
           </div>
           <img className="pie-chart__image" src={CovidRelief} alt="" />
         </div>
+        <div className="section">
+          <div className="statistic__section space" style={{ borderColor: '#626366'}}>
+            <div className="statistic">
+              <p className="statistic__number">370</p>
+              <p className="statistic__label">Projects, businesses, and companies supported</p>
+            </div>
+            <div className="statistic-image__container">
+              <p className="statistic-image__label bg--yellow color--black">Business</p>
+              <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
+            </div>
+            <div className="statistic">
+              <p className="statistic__number">446,382</p>
+              <p className="statistic__label">Total square footage of commercial and retail spaces developed</p>
+            </div>
+          </div>
+          <div className="statistic__section space" style={{ borderColor: '#626366'}}>
+            <div className="statistic-image__container">
+              <p className="statistic-image__label color--black bg--yellow">Housing</p>
+              <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
+            </div>
+            <div className="statistic">
+              <p className="statistic__number">84</p>
+              <p className="statistic__label">Housing units created</p>
+            </div>
+            <div className="statistic">
+              <p className="statistic__number">38</p>
+              <p className="statistic__label">Affordable housing units created</p>
+            </div>
+          </div>
+          <div className="statistic__section space" style={{ borderColor: '#626366'}}>
+            <div className="statistic">
+              <p className="statistic__number">65%</p>
+              <p className="statistic__label">Projects supported that are led by people of color, women, or Detroit residents</p>
+            </div>
+            <div className="statistic">
+              <p className="statistic__number">1,866</p>
+              <p className="statistic__label">Jobs created or retained</p>
+            </div>
+            <div className="statistic-image__container">
+              <p className="statistic-image__label color--black bg--yellow">Employment</p>
+              <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

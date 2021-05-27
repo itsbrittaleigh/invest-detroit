@@ -14,16 +14,16 @@ const Timeline = () => (
         <h2>Through the Years</h2>
       </div>
       <div className="indented-section" style={{ maxWidth: '600px' }}>
-        <p className="lead-xl">
+        <p className="lead-xl color--dark-gray">
           From a single fund to a dynamic organization with numerous proven strategies and programs,
           follow Invest Detroit’s evolution through some of the projects, milestones, and key partnerships
           along our 25-year history.
         </p>
         <nav className="timeline-nav">
           <ul>
-            <li className="color--red">Partnerships</li>
-            <li className="color--blue">Project / Business</li>
             <li className="color--yellow">Milestones</li>
+            <li className="color--blue">Project / Business</li>
+            <li className="color--red">Partnerships</li>
           </ul>
         </nav>
       </div>
