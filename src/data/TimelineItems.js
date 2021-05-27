@@ -23,6 +23,7 @@ import Capital from '../assets/images/timeline/2010_Capital-Park.jpg';
 import Broderick from '../assets/images/timeline/2010_Broderick.jpg';
 import SuperBowl from '../assets/images/timeline/2005_Super-Bowl.jpg';
 import Kennedy from '../assets/images/timeline/2005_Kennedy-Square-Campus-Martius.jpg';
+import TOD from '../assets/images/timeline/2005_TOD.jpg';
 import Cullen from '../assets/images/timeline/2003_Matt-Cullen.jpg';
 import Kales from '../assets/images/timeline/2003_Kales-Building.jpg';
 import Dave from '../assets/images/timeline/2001_Dave-Blaszkiewicz-CEO.jpg';
@@ -30,6 +31,10 @@ import Ferry from '../assets/images/timeline/1997_Ferry-Building.jpg';
 import Report from '../assets/images/timeline/1996_Investment-Report.jpg';
 import Harris from '../assets/images/timeline/1995_Karen-Harris.jpg';
 import Board from '../assets/images/timeline/1995_DIF-Board.jpg';
+
+const browser = navigator.userAgent;
+const isFirefox = browser.includes('Firefox');
+const isSafari = browser.includes('Safari');
 
 const TimelineItems2020 = [
   {
@@ -52,7 +57,7 @@ const TimelineItems2020 = [
     type: 'milestone',
     title: 'With support from the Michigan Economic Development Corporation and the New Economy Initiative, the Tech Startup Stabilization Fund is launched to provide critical capital to Michigan startups impacted by COVID.',
     subtitle: 'Milestone',
-    className: 'is-left',
+    className: isFirefox ? '' : 'is-left',
   },
   {
     type: 'milestone',
@@ -150,6 +155,12 @@ const TimelineItems2017 = [
     className: 'is-left',
   },
   {
+    type: 'milestone',
+    title: 'With support from the Michigan Economic Development Corporation and the New Economy Initiative, ID Ventures launches the First Capital Fund dedicated to providing early-stage funding for Michigan startups with high-growth potential.',
+    subtitle: 'Milestone',
+    className: 'is-left',
+  },
+  {
     type: 'project',
     title: 'The Means Group and the Roxbury Group receive Invest Detroit financing to support the renovation of the Metropolitan Building into a new hotel. Vacant since 1979, and know by many for the full-size tree growng on its roof, the Metropolitan was one of the last historic vacant building downtown to be saved from demotion.',
     subtitle: 'Project/Business',
@@ -157,7 +168,6 @@ const TimelineItems2017 = [
       src: Metropolitan,
       alt: 'Kitten',
     },
-    className: 'is-left',
   },
   {
     type: 'project',
@@ -167,11 +177,6 @@ const TimelineItems2017 = [
       src: Norma,
       alt: 'Kitten',
     },
-  },
-  {
-    type: 'milestone',
-    title: 'With support from the Michigan Economic Development Corporation and the New Economy Initiative, ID Ventures launches the First Capital Fund dedicated to providing early-stage funding for Michigan startups with high-growth potential.',
-    subtitle: 'Milestone',
   },
 ];
 
@@ -374,7 +379,7 @@ const TimelineItems2009 = [
     type: 'milestone',
     title: 'With funding from the Detroit Investment Fund and support from the Michigan Economic Development Corporation, Invest Detroit starts a new small business lending program to support new and existing small businesses. Over the next few years, the Urban Retail Loan Fund will grow with support from partners like Hudson Webber Foundation, W.K. Kellogg Foundation, the Kresge Foundation, and JPMorgan Chase.',
     subtitle: 'Milestone',
-    className: 'is-left',
+    className: isFirefox ? '' : 'is-left',
   },
 ];
 
@@ -402,7 +407,11 @@ const TimelineItems2005 = [
     type: 'partnership',
     title: 'The Detroit Economic Growth Corporation and the Downtown Detroit Partnership begin to develop a new strategy that focuses partners, including Invest Detroit, on greater collaboration and focused partnership along the Woodward Corridor. The strategy will develop over time and be known as the Transit Oriented Development (TOD)',
     subtitle: 'Partnership',
-    className: 'is-left',
+    className: isFirefox ? '' : 'is-left',
+    image: {
+      src: TOD,
+      alt: 'Kitten',
+    },
   },
   {
     type: 'project',
@@ -434,7 +443,7 @@ const TimelineItems2003 = [
       src: Kales,
       alt: 'Kitten',
     },
-    className: 'is-left',
+    className: isFirefox ? '' : 'is-left',
   },
 ];
 

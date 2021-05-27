@@ -50,8 +50,9 @@
 
 .hero__subtitle {
   color: $white;
-  font-size: 0.65em;
+  font-size: 0.55em;
   font-weight: normal;
+  letter-spacing: 0.1em;
   line-height: 1;
   opacity: 0;
   position: absolute;
@@ -99,7 +100,7 @@
     opacity: 0;
   }
   20%, 80% {
-    top: 7px;
+    top: 10px;
     opacity: 1;
   }
   100% {

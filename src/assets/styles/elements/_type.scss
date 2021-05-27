@@ -26,6 +26,7 @@ h3 {
   font-weight: normal;
   font-size: 20px;
   letter-spacing: 0.06em;
+  margin-bottom: 18px;
 
   @media only screen and (min-width: $breakpoint) {
     font-size: 24px;
@@ -33,7 +34,7 @@ h3 {
 }
 
 .lead {
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .lead-xl {

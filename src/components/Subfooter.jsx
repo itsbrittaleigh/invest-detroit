@@ -4,53 +4,62 @@ import useInterval from '../hooks/useInterval';
 import twitterIcon from '../assets/images/icon__twitter--black.svg';
 import facebookIcon from '../assets/images/icon__facebook--black.svg';
 import copyIcon from '../assets/images/icon__copy.svg';
+import Adapting from '../assets/images/hero/adapting.jpg';
+import Catalyzing from '../assets/images/hero/catalyzing.jpg';
+import Collaboration from '../assets/images/hero/collaborating.jpg';
+import Funding from '../assets/images/hero/funding.jpg';
+import Growing from '../assets/images/hero/growing.jpg';
+import Investing from '../assets/images/hero/investing.jpg';
+import Learning from '../assets/images/hero/learning.jpg';
+import Loving from '../assets/images/hero/loving-detroit.jpg';
+import Partnership from '../assets/images/hero/partnering.jpg';
 
 const Subfooter = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const heroTextItems = [
     {
       text: 'Partnering',
-      image: 'https://placekitten.com/500/500',
+      image: Partnership,
       imageAlt: 'Kitten',
     },
     {
       text: 'Learning',
-      image: 'https://placekitten.com/600/600',
+      image: Learning,
       imageAlt: 'Kitten',
     },
     {
       text: 'Collaborating',
-      image: 'https://placekitten.com/700/700',
+      image: Collaboration,
       imageAlt: 'Kitten',
     },
     {
       text: 'Funding',
-      image: 'https://placekitten.com/800/800',
+      image: Funding,
       imageAlt: 'Kitten',
     },
     {
       text: 'Adapting',
-      image: 'https://placekitten.com/900/900',
+      image: Adapting,
       imageAlt: 'Kitten',
     },
     {
       text: 'Catalyzing',
-      image: 'https://placekitten.com/1000/1000',
+      image: Catalyzing,
       imageAlt: 'Kitten',
     },
     {
       text: 'Growing',
-      image: 'https://placekitten.com/1100/1100',
+      image: Growing,
       imageAlt: 'Kitten',
     },
     {
       text: 'Investing',
-      image: 'https://placekitten.com/1200/1200',
+      image: Investing,
       imageAlt: 'Kitten',
     },
     {
       text: 'Loving Detroit',
-      image: 'https://placekitten.com/1300/1300',
+      image: Loving,
       imageAlt: 'Kitten',
     },
   ];
