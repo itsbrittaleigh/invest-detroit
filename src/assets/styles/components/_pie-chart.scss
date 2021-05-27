@@ -2,9 +2,15 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 50px 0;
   border-top: 1px solid #626366;
+  max-width: 980px;
+  margin: 0 auto;
+
+  .key-metrics-statistic__label {
+    color: #909295;
+  }
 }
 
 .pie-chart__image {
@@ -14,7 +20,12 @@
 
 .pie-section__label {
   color: $yellow;
-  width: 40%;
+  font-size: 24px;
+  margin: 0 170px 48px 0;
+
+  @media only screen and (min-width: $breakpoint) {
+    width: 155px;
+  }
 }
 
 .col-lt {
@@ -22,6 +33,10 @@
 }
 
 .pie-chart__section--financials {
-  padding: 50px 50px;
   justify-content: flex-start;
+  align-items: flex-start;
+
+  .key-metrics-statistic {
+    width: 300px;
+  }
 }

@@ -186,7 +186,7 @@ const Recognition = () => (
             <div className="recognition-section">
               <h3>Donor List</h3>
               <p>Special thanks to our community of philanthropic supporters who make this critical work possible.</p>
-              <ul>
+              <ul style={{ borderBottom: 'none' }}>
                 {Members.Donor.map((member) => (
                   <li>
                     <span className="member__name">{member.name}</span>

@@ -1,11 +1,11 @@
 .recognition-section {
-  padding-top: 100px;
+  padding-top: 60px;
 
   h3 {
     color: $yellow;
-    font-weight: $bold;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     text-align: left;
     text-decoration: underline;
     text-decoration-thickness: 5px;
@@ -15,8 +15,8 @@
   ul {
     list-style-type: none;
     padding: 0 0 60px 0;
-    margin-top: 60px 0 0;
-    border-bottom: 2px solid $gray;
+    margin: 0;
+    border-bottom: 2px solid #E3E4E5;
 
     @media only screen and (min-width: 600px) {
       column-count: 2;
@@ -27,7 +27,7 @@
     }
 
     @media only screen and (min-width: $breakpoint) {
-      column-gap: 48px;
+      column-gap: 100px;
     }
   }
 

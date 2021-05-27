@@ -6,14 +6,16 @@
 }
 
 .sticky-side-nav {
-  margin-right: 60px;
+  margin: 0 150px 0 50px;
   position: relative;
+  width: 180px;
 
   &.sticky-side-nav--timeline {
     position: absolute;
     top: 100px;
     left: 0;
     height: 100%;
+    width: auto;
     
     ul {
       border-radius: 0 5px 5px 0;

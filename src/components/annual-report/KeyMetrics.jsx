@@ -1,22 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import dollarsDeployedIcon from '../../assets/images/icon__dollars-deployed.svg';
 import dollarsLeveragedIcon from '../../assets/images/icon__dollars-leveraged.svg';
+import dollarsDeployedIconRed from '../../assets/images/icon__dollars-deployed--red.svg';
+import dollarsLeveragedIconRed from '../../assets/images/icon__dollars-leveraged--red.svg';
+import dollarsDeployedIconBlue from '../../assets/images/icon__dollars-deployed--blue.svg';
+import dollarsLeveragedIconBlue from '../../assets/images/icon__dollars-leveraged--blue.svg';
+import dollarsDeployedIconTeal from '../../assets/images/icon__dollars-deployed--teal.svg';
+import dollarsLeveragedIconTeal from '../../assets/images/icon__dollars-leveraged--teal.svg';
 import heartIcon from '../../assets/images/icon__heart.svg';
 import CovidRelief from '../../assets/images/covid-relief.svg';
 import DollarsLeveraged from '../../assets/images/dollars-leveraged.svg';
 import Deployment from '../../assets/images/program-deployment.svg';
 
 const KeyMetrics = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
   return (
     <section id="about" className="section bg--black">
       <div className="wrapper">
         <div className="section__heading">
-          <div className="heading-icon__container heading-icon__container--light">
-            <img src="https://placekitten.com/50/50" alt="Kitten" className="heading-icon" />
+          <div className="heading-icon__container">
+            <p className="heading-icon">1</p>
           </div>
           <h2 className="color--white">Key Metrics</h2>
         </div>
-        {/* <div className="info-scroller annual-report">
+        <div className="info-scroller annual-report">
           <nav className="info-scroller__navigation">
             <ul className="swiper-pagination" id="swiper__focus-pagination">
               <li
@@ -55,22 +63,12 @@ const KeyMetrics = () => {
                 <div className="key-metrics-statistic">
                   <img src={dollarsDeployedIcon} alt="Arrow facing up and right on bar graph" />
                   <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
-                  <p className="key-metrics-statistic__number color--yellow">$7,357,348</p>
+                  <p className="key-metrics-statistic__number color--yellow">$20,280,756</p>
                 </div>
                 <div className="key-metrics-statistic">
                   <img src={dollarsLeveragedIcon} alt="Stacks of cash" />
                   <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
-                  <p className="key-metrics-statistic__number color--yellow">$50,301,943</p>
-                </div>
-                <div className="key-metrics-statistic">
-                  <img src={projectsSupportedIcon} alt="Two skyscraper buildings" />
-                  <p className="key-metrics-statistic__label color--white">Projects Supported</p>
-                  <p className="key-metrics-statistic__number color--yellow">12</p>
-                </div>
-                <div className="key-metrics-statistic">
-                  <img src={jobsCreatedIcon} alt="Two people" />
-                  <p className="key-metrics-statistic__label color--white">Jobs Created</p>
-                  <p className="key-metrics-statistic__number color--yellow">92</p>
+                  <p className="key-metrics-statistic__number color--yellow">$70,238,274</p>
                 </div>
               </div>
             </div>
@@ -81,22 +79,12 @@ const KeyMetrics = () => {
                 <div className="key-metrics-statistic">
                   <img src={dollarsDeployedIconRed} alt="Arrow facing up and right on bar graph" />
                   <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
-                  <p className="key-metrics-statistic__number color--red">$7,357,348</p>
+                  <p className="key-metrics-statistic__number color--red">$1,605,000</p>
                 </div>
                 <div className="key-metrics-statistic">
                   <img src={dollarsLeveragedIconRed} alt="Stacks of cash" />
                   <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
-                  <p className="key-metrics-statistic__number color--red">$50,301,943</p>
-                </div>
-                <div className="key-metrics-statistic">
-                  <img src={projectsSupportedIconRed} alt="Two skyscraper buildings" />
-                  <p className="key-metrics-statistic__label color--white">Projects Supported</p>
-                  <p className="key-metrics-statistic__number color--red">12</p>
-                </div>
-                <div className="key-metrics-statistic">
-                  <img src={jobsCreatedIconRed} alt="Two people" />
-                  <p className="key-metrics-statistic__label color--white">Jobs Created</p>
-                  <p className="key-metrics-statistic__number color--red">92</p>
+                  <p className="key-metrics-statistic__number color--red">$1,643,614</p>
                 </div>
               </div>
             </div>
@@ -107,22 +95,12 @@ const KeyMetrics = () => {
                 <div className="key-metrics-statistic">
                   <img src={dollarsDeployedIconBlue} alt="Arrow facing up and right on bar graph" />
                   <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
-                  <p className="key-metrics-statistic__number color--blue">$7,357,348</p>
+                  <p className="key-metrics-statistic__number color--blue">$2,659,250</p>
                 </div>
                 <div className="key-metrics-statistic">
                   <img src={dollarsLeveragedIconBlue} alt="Stacks of cash" />
                   <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
-                  <p className="key-metrics-statistic__number color--blue">$50,301,943</p>
-                </div>
-                <div className="key-metrics-statistic">
-                  <img src={projectsSupportedIconBlue} alt="Two skyscraper buildings" />
-                  <p className="key-metrics-statistic__label color--white">Projects Supported</p>
-                  <p className="key-metrics-statistic__number color--blue">12</p>
-                </div>
-                <div className="key-metrics-statistic">
-                  <img src={jobsCreatedIconBlue} alt="Two people" />
-                  <p className="key-metrics-statistic__label color--white">Jobs Created</p>
-                  <p className="key-metrics-statistic__number color--blue">92</p>
+                  <p className="key-metrics-statistic__number color--blue">$218,250</p>
                 </div>
               </div>
             </div>
@@ -133,27 +111,17 @@ const KeyMetrics = () => {
               <div className="key-metrics-statistic">
                 <img src={dollarsDeployedIconTeal} alt="Arrow facing up and right on bar graph" />
                 <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
-                <p className="key-metrics-statistic__number color--teal">$7,357,348</p>
+                <p className="key-metrics-statistic__number color--teal">$5,810,231</p>
               </div>
               <div className="key-metrics-statistic">
                 <img src={dollarsLeveragedIconTeal} alt="Stacks of cash" />
                 <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
-                <p className="key-metrics-statistic__number color--teal">$50,301,943</p>
-              </div>
-              <div className="key-metrics-statistic">
-                <img src={projectsSupportedIconTeal} alt="Two skyscraper buildings" />
-                <p className="key-metrics-statistic__label color--white">Projects Supported</p>
-                <p className="key-metrics-statistic__number color--teal">12</p>
-              </div>
-              <div className="key-metrics-statistic">
-                <img src={jobsCreatedIconTeal} alt="Two people" />
-                <p className="key-metrics-statistic__label color--white">Jobs Created</p>
-                <p className="key-metrics-statistic__number color--teal">92</p>
+                <p className="key-metrics-statistic__number color--teal">$122,000,000</p>
               </div>
             </div>
           </div>
           )}
-        </div> */}
+        </div>
         <div className="pie-chart__section">
           <div className="key-metrics-statistic">
             <img className="key-metrics-statistic__image" src={dollarsDeployedIcon} alt="Two people" />

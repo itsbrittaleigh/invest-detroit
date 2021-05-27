@@ -10,6 +10,7 @@
 
   &.annual-report {
     max-width: 900px;
+    border-bottom: 0;
   }
 }
 
@@ -111,6 +112,8 @@
 
   &.annual-report {
     height: auto;
+    max-width: 650px;
+    margin: 0 auto;
   }
 }
 

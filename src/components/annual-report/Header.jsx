@@ -48,7 +48,7 @@ const Header = () => {
           <ul className="main-navigation__list">
             <span className="wrapper">
               <li className="main-navigation__list-item">
-                <Link to="/" className="main-navigation__list-item-link">
+                <Link to="/" className="main-navigation__list-item-link weight--normal">
                   Return to celebrating 25 years
                 </Link>
               </li>
@@ -58,6 +58,7 @@ const Header = () => {
                   onClick={() => navigateAndClose('about')}
                   role="link"
                 >
+                  <span className="number">1</span>
                   2020 Key Metrics
                 </span>
               </li>
@@ -67,6 +68,7 @@ const Header = () => {
                   onClick={() => navigateAndClose('impact-numbers')}
                   role="link"
                 >
+                  <span className="number">2</span>
                   2020 Recognition
                 </span>
               </li>
@@ -76,6 +78,7 @@ const Header = () => {
                   onClick={() => navigateAndClose('timeline')}
                   role="link"
                 >
+                  <span className="number">3</span>
                   2020 Financials
                 </span>
               </li>

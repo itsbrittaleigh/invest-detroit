@@ -246,7 +246,7 @@
   
   .main-navigation__list-item-link {
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 700;
     margin-left: 48px;
     display: flex;
     align-items: center;
@@ -283,5 +283,9 @@
 
   .main-navigation__list-item-link:hover {
     color: $yellow;
+  }
+
+  .main-navigation__list-item-link .number {
+    background-color: $yellow;
   }
 }

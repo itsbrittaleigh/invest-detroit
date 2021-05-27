@@ -11,24 +11,24 @@ const Financials = () => {
           </div>
           <h2 className="color--white">2020 Financials</h2>
         </div>
-        <div className="pie-chart__section pie-chart__section--financials">
+        <div className="pie-chart__section pie-chart__section--financials" style={{ borderTop: 'none' }}>
           <p className="pie-section__label">Invest Detroit Consolidated</p>
           <div className="key-metrics--multiple">
             <div className="key-metrics-statistic">
-              <p className="key-metrics-statistic__label color--white">Total Assets</p>
-              <p className="key-metrics-statistic__number color--white">$167,320,592</p>
+              <p className="key-metrics-statistic__label">Total Assets</p>
+              <p className="key-metrics-statistic__number color--white">$193,877,792</p>
             </div>
             <div className="key-metrics-statistic">
-              <p className="key-metrics-statistic__label color--white">Portfolio Investments</p>
-              <p className="key-metrics-statistic__number color--white">$92,320,513</p>
+              <p className="key-metrics-statistic__label">Portfolio Investments</p>
+              <p className="key-metrics-statistic__number color--white">$110,967,310</p>
             </div>
             <div className="key-metrics-statistic">
-              <p className="key-metrics-statistic__label color--white">Net Assets and Partners' Equity</p>
-              <p className="key-metrics-statistic__number color--white">$138,568,263</p>
+              <p className="key-metrics-statistic__label">Net Assets and Partners' Equity</p>
+              <p className="key-metrics-statistic__number color--white">$164,395,257</p>
             </div>
             <div className="key-metrics-statistic">
-              <p className="key-metrics-statistic__label color--white">2019 Net Income</p>
-              <p className="key-metrics-statistic__number color--white">$20,183,023</p>
+              <p className="key-metrics-statistic__label">2019 Net Income</p>
+              <p className="key-metrics-statistic__number color--white">$35,917,466</p>
             </div>
           </div>
         </div>
@@ -36,16 +36,16 @@ const Financials = () => {
           <p className="pie-section__label">Operational Highlights</p>
           <div className="key-metrics--multiple">
             <div className="key-metrics-statistic">
-              <p className="key-metrics-statistic__label color--white">Deployment</p>
-              <p className="key-metrics-statistic__number color--white">$43,394,476</p>
+              <p className="key-metrics-statistic__label">Deployment</p>
+              <p className="key-metrics-statistic__number color--white">$36M</p>
             </div>
             <div className="key-metrics-statistic">
-              <p className="key-metrics-statistic__label color--white">New Staff Hires</p>
-              <p className="key-metrics-statistic__number color--white">5</p>
+              <p className="key-metrics-statistic__label">New Staff Hires</p>
+              <p className="key-metrics-statistic__number color--white">6</p>
             </div>
             <div className="key-metrics-statistic">
-              <p className="key-metrics-statistic__label color--white">Fundraising</p>
-              <p className="key-metrics-statistic__number color--white">$33,000,000</p>
+              <p className="key-metrics-statistic__label">Fundraising</p>
+              <p className="key-metrics-statistic__number color--white">$40M</p>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ const Financials = () => {
             <p className="pie-section__label">Combined Portfolio Composition</p>
             <div className="key-metrics-statistic">
               <p className="key-metrics-statistic__label color--white">Total Portfolio</p>
-              <p className="key-metrics-statistic__number color--white">$92,212,605</p>
+              <p className="key-metrics-statistic__number color--white">$110,967,310</p>
             </div>
           </div>
           <img className="pie-chart__image" src={PortfolioComp} alt="" />

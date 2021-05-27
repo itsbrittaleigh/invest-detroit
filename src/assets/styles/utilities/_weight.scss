@@ -1,7 +1,11 @@
 .weight--bold {
-  font-weight: $bold;
+  font-weight: $bold !important;
 }
 
 .weight-semibold {
-  font-weight: $semibold;
+  font-weight: $semibold !important;
+}
+
+.weight--normal {
+  font-weight: 400 !important;
 }

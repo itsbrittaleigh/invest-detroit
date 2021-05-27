@@ -49,7 +49,7 @@ const Board = [
   },
   {
     name: 'Suzanne Shank',
-    title: 'President and CEO, Co-Founder, Siebert Williams Shank &amp; Co., LLC',
+    title: 'President and CEO, Co-Founder, Siebert Williams Shank & Co., LLC',
   },
   {
     name: 'Gary Torgow',
@@ -68,7 +68,7 @@ const Board = [
     title: 'Ex-Officio Board Member; Chief Operating Officer, Invest Detroit',
   },
   {
-    name: 'Paul Trulik - Secretary &amp; Treasurer',
+    name: 'Paul Trulik - Secretary & Treasurer',
     title: 'President, Apparatus Solutions, Inc.',
   },
   {
