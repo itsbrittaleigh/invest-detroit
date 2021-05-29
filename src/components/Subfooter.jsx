@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import { FacebookShareButton, TwitterShareButton } from 'react-share';
 import useInterval from '../hooks/useInterval';
 import twitterIcon from '../assets/images/icon__twitter--black.svg';
@@ -101,35 +102,41 @@ const Subfooter = () => {
           </span>
         </h1>
         <div className="social-sharing">
-          <div>
-            <FacebookShareButton
-              quote="In 2020, Invest Detroit celebrated 25 years of commitment to sparking economic growth in Detroit. Learn more here!"
-              url="https://25.investdetroit.com"
-            >
-              <img src={facebookIcon} alt="Facebook logo icon" />
-              <p>Share on Facebook</p>
-            </FacebookShareButton>
-          </div>
-          <div>
-            <TwitterShareButton
-              title="In 2020, Invest Detroit celebrated 25 years of commitment to sparking economic growth in Detroit. Learn more here!"
-              url="https://25.investdetroit.com"
-            >
-              <img src={twitterIcon} alt="Twitter logo icon" />
-              <p>Share on Twitter</p>
-            </TwitterShareButton>
-          </div>
-          <div role="button">
-            <button
-              aria-label="copy link"
-              style={{ backgroundColor: 'transparent', border: 'medium none', padding: '0px', font: 'inherit', color: 'inherit', cursor: 'pointer',}}
-              onClick={copyLink}
-              onKeyPress={copyLink}
-            >
-              <img src={copyIcon} alt="Link icon" />
-              <p>Copy Website link</p>
-            </button>
-          </div>
+          <ScrollAnimation animateIn="fadeIn">
+            <div>
+              <FacebookShareButton
+                quote="In 2020, Invest Detroit celebrated 25 years of commitment to sparking economic growth in Detroit. Learn more here!"
+                url="https://25.investdetroit.com"
+              >
+                <img src={facebookIcon} alt="Facebook logo icon" />
+                <p>Share on Facebook</p>
+              </FacebookShareButton>
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeIn">
+            <div>
+              <TwitterShareButton
+                title="In 2020, Invest Detroit celebrated 25 years of commitment to sparking economic growth in Detroit. Learn more here!"
+                url="https://25.investdetroit.com"
+              >
+                <img src={twitterIcon} alt="Twitter logo icon" />
+                <p>Share on Twitter</p>
+              </TwitterShareButton>
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeIn">
+            <div role="button">
+              <button
+                aria-label="copy link"
+                style={{ backgroundColor: 'transparent', border: 'medium none', padding: '0px', font: 'inherit', color: 'inherit', cursor: 'pointer',}}
+                onClick={copyLink}
+                onKeyPress={copyLink}
+              >
+                <img src={copyIcon} alt="Link icon" />
+                <p>Copy Website link</p>
+              </button>
+            </div>
+          </ScrollAnimation>
         </div>
       </div>
     </section>

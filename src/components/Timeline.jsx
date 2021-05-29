@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink, Element } from 'react-scroll';
 import TimelineItem from './TimelineItem';
@@ -7,25 +8,31 @@ import TimelineItems from '../data/TimelineItems';
 const Timeline = () => (
   <section id="timeline" className="section" style={{ backgroundColor: '#F5F5F5', paddingBottom: '0' }}>
     <div className="wrapper">
-      <div className="section__heading">
-        <div className="heading-icon__container heading-icon__container--light">
-          <p className="heading-icon">4</p>
+      <ScrollAnimation animateIn="fadeIn">
+        <div className="section__heading">
+          <div className="heading-icon__container heading-icon__container--light">
+            <p className="heading-icon">4</p>
+          </div>
+          <h2>Through the Years</h2>
         </div>
-        <h2>Through the Years</h2>
-      </div>
+      </ScrollAnimation>
       <div className="indented-section" style={{ maxWidth: '600px' }}>
-        <p className="lead-xl color--dark-gray">
-          From a single fund to a dynamic organization with numerous proven strategies and programs,
-          follow Invest Detroit’s evolution through some of the projects, milestones, and key partnerships
-          along our 25-year history.
-        </p>
-        <nav className="timeline-nav">
-          <ul>
-            <li className="color--yellow">Milestones</li>
-            <li className="color--blue">Project / Business</li>
-            <li className="color--red">Partnerships</li>
-          </ul>
-        </nav>
+        <ScrollAnimation animateIn="fadeIn">
+          <p className="lead-xl color--dark-gray">
+            From a single fund to a dynamic organization with numerous proven strategies and programs,
+            follow Invest Detroit’s evolution through some of the projects, milestones, and key partnerships
+            along our 25-year history.
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn">
+          <nav className="timeline-nav">
+            <ul>
+              <li className="color--yellow">Milestones</li>
+              <li className="color--blue">Project / Business</li>
+              <li className="color--red">Partnerships</li>
+            </ul>
+          </nav>
+        </ScrollAnimation>
       </div>
     </div>
 
@@ -127,9 +134,12 @@ const Timeline = () => (
 
       <div className="years">
         <Element name="2020" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">25th Year</p>
               <h3 className="timeline__year">2020</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <Link className="timeline-item--annual-report" to="/2020-annual-report">
                 <span>
                   2020
@@ -137,78 +147,104 @@ const Timeline = () => (
                   <span>Key Metrics, Recognition, and Financials</span>
                 </span>
               </Link>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2020].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
         
         <Element name="2019" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">24th Year</p>
               <h3 className="timeline__year">2019</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2019].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2018" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">23rd Year</p>
               <h3 className="timeline__year">2018</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2018].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2017" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">22nd Year</p>
               <h3 className="timeline__year">2017</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2017].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2016" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">21st Year</p>
               <h3 className="timeline__year">2016</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2016].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2014" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">19th Year</p>
               <h3 className="timeline__year">2014</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2014].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2013" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">18th Year</p>
               <h3 className="timeline__year">2013</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2013].map((item) => (
                   <TimelineItem item={item} />
@@ -216,123 +252,163 @@ const Timeline = () => (
                 <span className="timeline__break-fix" />
                 <span className="timeline__break-fix" />
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2012" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">17th Year</p>
               <h3 className="timeline__year">2012</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2012].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2011" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">16th Year</p>
               <h3 className="timeline__year">2011</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2011].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2010" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">15th Year</p>
               <h3 className="timeline__year">2010</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2010].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2009" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">14th Year</p>
               <h3 className="timeline__year">2009</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2009].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2008" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">13th Year</p>
               <h3 className="timeline__year">2008</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2008].map((item) => (
                   <TimelineItem item={item} />
                 ))}
                 <span className="timeline__break-fix" />
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2005" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">10th Year</p>
               <h3 className="timeline__year">2005</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2005].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2003" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">8th Year</p>
               <h3 className="timeline__year">2003</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2003].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="2001" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">6th Year</p>
               <h3 className="timeline__year">2001</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2001].map((item) => (
                   <TimelineItem item={item} />
                 ))}
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="1997" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">3rd Year</p>
               <h3 className="timeline__year">1997</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[1997].map((item) => (
                   <TimelineItem item={item} />
                 ))}
                 <span className="timeline__break-fix" />
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="1996" className="section timeline-section">
-            <div className="wrapper">
+          <div className="wrapper">
+            <ScrollAnimation animateIn="fadeIn">
               <p className="subtitle timeline__subtitle text--center">2nd Year</p>
               <h3 className="timeline__year">1996</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[1996].map((item) => (
                   <TimelineItem item={item} />
@@ -340,18 +416,23 @@ const Timeline = () => (
                 <span className="timeline__break-fix" />
                 <span className="timeline__break-fix" />
               </ul>
-            </div>
+            </ScrollAnimation>
+          </div>
         </Element>
 
         <Element name="1995" className="section timeline-section">
           <div className="wrapper">
-            <p className="subtitle timeline__subtitle text--center">1st Year</p>
-            <h3 className="timeline__year">1995</h3>
-            <ul className="timeline">
-              {TimelineItems[1995].map((item) => (
-                <TimelineItem item={item} />
-              ))}
-            </ul>
+            <ScrollAnimation animateIn="fadeIn">
+              <p className="subtitle timeline__subtitle text--center">1st Year</p>
+              <h3 className="timeline__year">1995</h3>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn">
+              <ul className="timeline">
+                {TimelineItems[1995].map((item) => (
+                  <TimelineItem item={item} />
+                ))}
+              </ul>
+            </ScrollAnimation>
           </div>
         </Element>
       </div>
