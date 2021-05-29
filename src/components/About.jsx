@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import Commercial from '../assets/images/about/commercial.jpg';
-import Density from '../assets/images/about/density.jpg';
-import Inclusivity from '../assets/images/about/inclusivity.jpg';
-import Jobs from '../assets/images/about/job-opportunities.jpg';
-import Neighborhoods from '../assets/images/about/neighborhoods.jpg';
-import RealEstate from '../assets/images/about/real-estate.jpg';
-import SmallBusiness from '../assets/images/about/small-business.jpg';
-import Venture from '../assets/images/about/venture-capital.jpg';
+import Commercial from '../assets/images/about/commercial.png';
+import Density from '../assets/images/about/density.png';
+import Inclusivity from '../assets/images/about/inclusivity.png';
+import Jobs from '../assets/images/about/job-opportunities.png';
+import Neighborhoods from '../assets/images/about/neighborhoods.png';
+import RealEstate from '../assets/images/about/real-estate.png';
+import SmallBusiness from '../assets/images/about/small-business.png';
+import Venture from '../assets/images/about/venture-capital.png';
 
 const About = () => {
   const [activeFocusIndex, setActiveFocusIndex] = useState(0);

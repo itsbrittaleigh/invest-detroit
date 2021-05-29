@@ -1,4 +1,5 @@
 import React from 'react';
+import Ahead from '../assets/images/ahead.svg';
 
 const WhatsNext = () => (
   <section id="whats-next" className="section bg--light-gray">
@@ -32,7 +33,7 @@ const WhatsNext = () => (
       </div>
       <div className="col--rt">
         <div className="section-icon__container">
-          <img src="https://placekitten.com/100/100" alt="Kitten" className="section-icon" />
+          <img src={Ahead} alt="Kitten" className="section-icon" />
         </div>
       </div>
     </div>

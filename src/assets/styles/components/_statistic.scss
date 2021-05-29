@@ -76,9 +76,8 @@
 }
 
 .statistic-image__image {
-  width: 150px;
-  height: 150px;
-  border-radius: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 
@@ -92,8 +91,8 @@
   margin: 0;
   color: $white;
   position: absolute;
-  top: 12px;
-  left: -6px;
+  top: 36px;
+  left: 0;
 }
 
 .statistic--large {

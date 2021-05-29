@@ -1,4 +1,5 @@
 import React from 'react';
+import CelebratingIcon from '../assets/images/celebrating.svg';
 
 const Celebrating = () => (
   <section id="celebrating-25-years" className="section section--dark">
@@ -39,7 +40,7 @@ const Celebrating = () => (
       </div>
       <div className="col--rt">
         <div className="section-icon__container">
-          <img src="https://placekitten.com/100/100" alt="Kitten" className="section-icon" />
+          <img src={CelebratingIcon} alt="Kitten" className="section-icon" />
         </div>
       </div>
     </div>

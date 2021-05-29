@@ -130,15 +130,13 @@ const Timeline = () => (
             <div className="wrapper">
               <p className="subtitle timeline__subtitle text--center">25th Year</p>
               <h3 className="timeline__year">2020</h3>
-              <div className="timeline-item--annual-report">
-                <Link to="/2020-annual-report">
-                  <span>
-                    2020
-                    <strong>Annual Report</strong>
-                    <span>Key Metrics, Recognition, and Financials</span>
-                  </span>
-                </Link>
-              </div>
+              <Link className="timeline-item--annual-report" to="/2020-annual-report">
+                <span>
+                  2020
+                  <strong>Annual Report</strong>
+                  <span>Key Metrics, Recognition, and Financials</span>
+                </span>
+              </Link>
               <ul className="timeline">
                 {TimelineItems[2020].map((item) => (
                   <TimelineItem item={item} />

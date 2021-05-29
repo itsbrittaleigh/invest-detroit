@@ -55,7 +55,7 @@ const Header = () => {
               <li className="main-navigation__list-item">
                 <span
                   className="main-navigation__list-item-link"
-                  onClick={() => navigateAndClose('about')}
+                  onClick={() => navigateAndClose('key-metrics')}
                   role="link"
                 >
                   <span className="number">1</span>
@@ -65,7 +65,7 @@ const Header = () => {
               <li className="main-navigation__list-item">
                 <span
                   className="main-navigation__list-item-link"
-                  onClick={() => navigateAndClose('impact-numbers')}
+                  onClick={() => navigateAndClose('recognition')}
                   role="link"
                 >
                   <span className="number">2</span>
@@ -75,7 +75,7 @@ const Header = () => {
               <li className="main-navigation__list-item">
                 <span
                   className="main-navigation__list-item-link"
-                  onClick={() => navigateAndClose('timeline')}
+                  onClick={() => navigateAndClose('financials')}
                   role="link"
                 >
                   <span className="number">3</span>

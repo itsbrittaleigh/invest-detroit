@@ -1,7 +1,13 @@
 import React from 'react';
+import HeroImg from '../../assets/images/hero__2020.jpg';
 
 const Hero = () => (
   <section id="hero" className="hero">
+    <img
+      alt=""
+      class="hero__img is-active"
+      src={HeroImg}
+    />
     <div className="wrapper">
       <h1 className="hero__title">2020 Annual Report</h1>
       {/* <p className="lead text--center" style={{ maxWidth: '600px', margin: '0 auto' }}>

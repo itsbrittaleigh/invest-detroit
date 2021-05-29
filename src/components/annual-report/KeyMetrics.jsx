@@ -11,18 +11,21 @@ import heartIcon from '../../assets/images/icon__heart.svg';
 import CovidRelief from '../../assets/images/covid-relief.svg';
 import DollarsLeveraged from '../../assets/images/dollars-leveraged.svg';
 import Deployment from '../../assets/images/program-deployment.svg';
+import Business from '../../assets/images/km-business.png';
+import Employment from '../../assets/images/km0employment.png';
+import Housing from '../../assets/images/km-housing.png';
 
 const KeyMetrics = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section id="about" className="section bg--black">
+    <section id="key-metrics" className="section bg--black">
       <div className="wrapper">
         <div className="section__heading">
           <div className="heading-icon__container">
             <p className="heading-icon">1</p>
           </div>
-          <h2 className="color--white">Key Metrics</h2>
+          <h2 className="color--white">2020 Key Metrics</h2>
         </div>
         <div className="info-scroller annual-report">
           <nav className="info-scroller__navigation">
@@ -126,7 +129,7 @@ const KeyMetrics = () => {
           <div className="key-metrics-statistic">
             <img className="key-metrics-statistic__image" src={dollarsDeployedIcon} alt="Two people" />
             <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
-            <p className="key-metrics-statistic__number color--white">$49,048,984</p>
+            <p className="key-metrics-statistic__number color--white">$30,355,237</p>
           </div>
           <img className="pie-chart__image" src={Deployment} alt="" />
         </div>
@@ -134,60 +137,58 @@ const KeyMetrics = () => {
           <div className="key-metrics-statistic">
             <img className="key-metrics-statistic__image" src={dollarsLeveragedIcon} alt="Two people" />
             <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
-            <p className="key-metrics-statistic__number color--white">$272,595,214</p>
+            <p className="key-metrics-statistic__number color--white">$194,100,138</p>
           </div>
           <img className="pie-chart__image" src={DollarsLeveraged} alt="" />
         </div>
-        <div className="pie-chart__section">
+        <div className="pie-chart__section" style={{ borderBottom: '1px solid #626366' }}>
           <div className="key-metrics-statistic">
-            <img className="key-metrics-statistic__image" src={heartIcon} alt="Two people" />
+            <img className="key-metrics-statistic__image" src={heartIcon} alt="Hearts" style={{ height: '25px' }} />
             <p className="key-metrics-statistic__label color--white">COVID Relief</p>
-            <p className="key-metrics-statistic__number color--white">2,000</p>
+            <p className="key-metrics-statistic__number color--white">$3,906,601</p>
           </div>
           <img className="pie-chart__image" src={CovidRelief} alt="" />
         </div>
-        <div className="section">
-          <div className="statistic__section space" style={{ borderColor: '#626366'}}>
-            <div className="statistic">
-              <p className="statistic__number">370</p>
-              <p className="statistic__label">Projects, businesses, and companies supported</p>
-            </div>
-            <div className="statistic-image__container">
-              <p className="statistic-image__label bg--yellow color--black">Business</p>
-              <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
-            </div>
-            <div className="statistic">
-              <p className="statistic__number">446,382</p>
-              <p className="statistic__label">Total square footage of commercial and retail spaces developed</p>
-            </div>
+        <div className="statistic__section space" style={{ borderColor: '#626366'}}>
+          <div className="statistic">
+            <p className="statistic__number">370</p>
+            <p className="statistic__label">Projects, businesses, and companies supported</p>
           </div>
-          <div className="statistic__section space" style={{ borderColor: '#626366'}}>
-            <div className="statistic-image__container">
-              <p className="statistic-image__label color--black bg--yellow">Housing</p>
-              <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
-            </div>
-            <div className="statistic">
-              <p className="statistic__number">84</p>
-              <p className="statistic__label">Housing units created</p>
-            </div>
-            <div className="statistic">
-              <p className="statistic__number">38</p>
-              <p className="statistic__label">Affordable housing units created</p>
-            </div>
+          <div className="statistic-image__container">
+            <p className="statistic-image__label bg--yellow color--black">Business</p>
+            <img className="statistic-image__image" src={Business} alt="" />
           </div>
-          <div className="statistic__section space" style={{ borderColor: '#626366'}}>
-            <div className="statistic">
-              <p className="statistic__number">65%</p>
-              <p className="statistic__label">Projects supported that are led by people of color, women, or Detroit residents</p>
-            </div>
-            <div className="statistic">
-              <p className="statistic__number">1,866</p>
-              <p className="statistic__label">Jobs created or retained</p>
-            </div>
-            <div className="statistic-image__container">
-              <p className="statistic-image__label color--black bg--yellow">Employment</p>
-              <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
-            </div>
+          <div className="statistic">
+            <p className="statistic__number">446,382</p>
+            <p className="statistic__label">Total square footage of commercial and retail spaces developed</p>
+          </div>
+        </div>
+        <div className="statistic__section space" style={{ borderColor: '#626366'}}>
+          <div className="statistic-image__container">
+            <p className="statistic-image__label color--black bg--yellow">Housing</p>
+            <img className="statistic-image__image" src={Housing} alt="" />
+          </div>
+          <div className="statistic">
+            <p className="statistic__number">84</p>
+            <p className="statistic__label">Housing units created</p>
+          </div>
+          <div className="statistic">
+            <p className="statistic__number">38</p>
+            <p className="statistic__label">Affordable housing units created</p>
+          </div>
+        </div>
+        <div className="statistic__section space" style={{ borderColor: '#626366'}}>
+          <div className="statistic">
+            <p className="statistic__number">1,866</p>
+            <p className="statistic__label">Jobs created or retained</p>
+          </div>
+          <div className="statistic">
+            <p className="statistic__number">65%</p>
+            <p className="statistic__label">Projects supported that are led by people of color, women, or Detroit residents</p>
+          </div>
+          <div className="statistic-image__container">
+            <p className="statistic-image__label color--black bg--yellow">Employment</p>
+            <img className="statistic-image__image" src={Employment} alt="" />
           </div>
         </div>
       </div>

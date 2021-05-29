@@ -3,11 +3,11 @@ import PortfolioComp from '../../assets/images/portfolio-comp.svg';
 
 const Financials = () => {
   return (
-    <section id="about" className="section bg--black">
+    <section id="financials" className="section bg--black">
       <div className="wrapper">
         <div className="section__heading">
           <div className="heading-icon__container heading-icon__container--light">
-            <img src="https://placekitten.com/50/50" alt="Kitten" className="heading-icon" />
+            <p className="heading-icon">3</p>
           </div>
           <h2 className="color--white">2020 Financials</h2>
         </div>
@@ -27,7 +27,7 @@ const Financials = () => {
               <p className="key-metrics-statistic__number color--white">$164,395,257</p>
             </div>
             <div className="key-metrics-statistic">
-              <p className="key-metrics-statistic__label">2019 Net Income</p>
+              <p className="key-metrics-statistic__label">2020 Net Income</p>
               <p className="key-metrics-statistic__number color--white">$35,917,466</p>
             </div>
           </div>

@@ -1,5 +1,9 @@
 import React from 'react';
 import { BarChart, Bar, ResponsiveContainer, Tooltip } from 'recharts';
+import Employment from '../assets/images/employment.png';
+import Housing from '../assets/images/housing.png';
+import Investment from '../assets/images/investment.png';
+import Business from '../assets/images/business.png';
 import data from '../data/BarChart';
 
 const ImpactNumbers = () => {
@@ -52,7 +56,7 @@ const ImpactNumbers = () => {
         <div className="statistic__section center">
           <div className="statistic-image__container">
             <p className="statistic-image__label">Investment</p>
-            <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
+            <img className="statistic-image__image" src={Investment} alt="" />
           </div>
           <div className="statistic">
             <p className="statistic__number large">$2,894,601,873</p>
@@ -66,7 +70,7 @@ const ImpactNumbers = () => {
           </div>
           <div className="statistic-image__container">
             <p className="statistic-image__label">Business</p>
-            <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
+            <img className="statistic-image__image" src={Business} alt="" />
           </div>
           <div className="statistic">
             <p className="statistic__number">6,068,507</p>
@@ -76,7 +80,7 @@ const ImpactNumbers = () => {
         <div className="statistic__section space">
           <div className="statistic-image__container">
             <p className="statistic-image__label">Housing</p>
-            <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
+            <img className="statistic-image__image" src={Housing} alt="" />
           </div>
           <div className="statistic">
             <p className="statistic__number">5,070</p>
@@ -90,7 +94,7 @@ const ImpactNumbers = () => {
         <div className="statistic__section center">
           <div className="statistic-image__container">
             <p className="statistic-image__label">Employment</p>
-            <img className="statistic-image__image" src="https://placekitten.com/200/200" alt="" />
+            <img className="statistic-image__image" src={Employment} alt="" />
           </div>
           <div className="statistic">
             <p className="statistic__number">12,848</p>

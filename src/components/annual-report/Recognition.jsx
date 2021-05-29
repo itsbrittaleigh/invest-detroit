@@ -3,11 +3,11 @@ import { Link, Element } from 'react-scroll';
 import Members from '../../data/RecognizedMembers';
 
 const Recognition = () => (
-  <section id="about" className="section">
+  <section id="recognition" className="section">
     <div className="wrapper">
       <div className="section__heading">
         <div className="heading-icon__container heading-icon__container--light">
-          <img src="https://placekitten.com/50/50" alt="Kitten" className="heading-icon" />
+          <p className="heading-icon">2</p>
         </div>
         <h2>Recognition</h2>
       </div>
@@ -15,47 +15,47 @@ const Recognition = () => (
         <nav className="sticky-side-nav">
           <ul>
             <li>
-              <Link activeClass="is-active" to="board" spy smooth offset={-100} duration={500}>
+              <Link activeClass="is-active" to="board" spy smooth offset={-100} offset={-100} duration={500}>
                 Board
               </Link>
             </li>
             <li>
-              <Link activeClass="is-active" to="staff" spy smooth duration={500}>
+              <Link activeClass="is-active" to="staff" spy smooth offset={-100} duration={500}>
                 Staff
               </Link>
             </li>
             <li>
-              <Link activeClass="is-active" to="cde-board" spy smooth duration={500}>
+              <Link activeClass="is-active" to="cde-board" spy smooth offset={-100} duration={500}>
                 CDE Board Members
               </Link>
             </li>
             <li>
-              <Link activeClass="is-active" to="investment" spy smooth duration={500}>
+              <Link activeClass="is-active" to="investment" spy smooth offset={-100} duration={500}>
                 Investment Committee
               </Link>
             </li>
             <li>
-              <Link activeClass="is-active" to="oversight" spy smooth duration={500}>
+              <Link activeClass="is-active" to="oversight" spy smooth offset={-100} duration={500}>
                 Oversight Committee
               </Link>
             </li>
             <li>
-              <Link activeClass="is-active" to="advisory" spy smooth duration={500}>
+              <Link activeClass="is-active" to="advisory" spy smooth offset={-100} duration={500}>
                 Advisory Committee
               </Link>
             </li>
             <li>
-              <Link activeClass="is-active" to="capital" spy smooth duration={500}>
+              <Link activeClass="is-active" to="capital" spy smooth offset={-100} duration={500}>
                 First Capital Fund Committee
               </Link>
             </li>
             <li>
-              <Link activeClass="is-active" to="innovate" spy smooth duration={500}>
+              <Link activeClass="is-active" to="innovate" spy smooth offset={-100} duration={500}>
                 Detroit Innovate Committee
               </Link>
             </li>
             <li>
-              <Link activeClass="is-active" to="donor" spy smooth duration={500}>
+              <Link activeClass="is-active" to="donor" spy smooth offset={-100} duration={500}>
                 Donor List
               </Link>
             </li>
