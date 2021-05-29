@@ -6,7 +6,7 @@ const Financials = () => {
     <section id="financials" className="section bg--black">
       <div className="wrapper">
         <div className="section__heading">
-          <div className="heading-icon__container heading-icon__container--light">
+          <div className="heading-icon__container">
             <p className="heading-icon">3</p>
           </div>
           <h2 className="color--white">2020 Financials</h2>
