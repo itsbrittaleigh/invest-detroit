@@ -238,7 +238,7 @@ const TimelineItems2014 = [
     type: 'partnership',
     title: 'Local Community Development Financial Institutions (CDFI’s) create the Detroit CDFI Coalition to increase collaboration and create shared and focused strategies.',
     subtitle: 'Partnership',
-    className: 'is-left',
+    className: !isFirefox ? 'is-left' : '',
   },
   {
     type: 'project',

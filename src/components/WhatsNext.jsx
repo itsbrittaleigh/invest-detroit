@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import { Parallax } from 'react-scroll-parallax';
 import Ahead from '../assets/images/ahead.svg';
 
 const WhatsNext = () => (
@@ -42,9 +43,11 @@ const WhatsNext = () => (
       </div>
       <div className="col--rt">
         <ScrollAnimation animateOnce={true} animateIn="fadeIn">
-          <div className="section-icon__container">
-            <img src={Ahead} alt="Kitten" className="section-icon" />
-          </div>
+          <Parallax y={[-20, 40]}>
+            <div className="section-icon__container">
+              <img src={Ahead} alt="Kitten" className="section-icon" />
+            </div>
+          </Parallax>
         </ScrollAnimation>
       </div>
     </div>

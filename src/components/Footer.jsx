@@ -10,7 +10,7 @@ import twitterLogoBlack from '../assets/images/icon__twitter--black.svg';
 
 const Footer = ({ className }) => {
   return (
-    <footer class={`footer ${className}`}>
+    <footer className={`footer ${className}`}>
       <div className="wrapper">
         <a href="https://investdetroit.com">
           {className !== 'inverted' ? (

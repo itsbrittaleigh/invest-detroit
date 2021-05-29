@@ -80,7 +80,7 @@ const Subfooter = () => {
         {heroTextItems.map((item, idx) => (
           <img
             alt={item.imageAlt}
-            class={`hero__img ${idx === activeIndex ? 'is-active' : ''}`}
+            className={`hero__img ${idx === activeIndex ? 'is-active' : ''}`}
             key={item.text}
             src={item.image}
           />
@@ -93,7 +93,7 @@ const Subfooter = () => {
           <span className="hero__subtitle-container" id="hero_text_scroller">
             {heroTextItems.map((item, idx) => (
               <span
-                class={`hero__subtitle ${idx === activeIndex ? 'is-active' : ''}`}
+                className={`hero__subtitle ${idx === activeIndex ? 'is-active' : ''}`}
                 key={item.text}
               >
                 {item.text}

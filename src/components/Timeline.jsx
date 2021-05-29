@@ -151,7 +151,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2020].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -167,7 +167,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2019].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -183,7 +183,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2018].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -199,7 +199,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2017].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -215,7 +215,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2016].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -231,7 +231,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2014].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -247,7 +247,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2013].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
                 <span className="timeline__break-fix" />
                 <span className="timeline__break-fix" />
@@ -265,7 +265,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2012].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -281,7 +281,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2011].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -297,7 +297,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2010].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -313,7 +313,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2009].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -329,7 +329,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2008].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
                 <span className="timeline__break-fix" />
               </ul>
@@ -346,7 +346,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2005].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -362,7 +362,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2003].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -378,7 +378,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[2001].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>
@@ -394,7 +394,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[1997].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
                 <span className="timeline__break-fix" />
               </ul>
@@ -411,7 +411,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[1996].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
                 <span className="timeline__break-fix" />
                 <span className="timeline__break-fix" />
@@ -429,7 +429,7 @@ const Timeline = () => (
             <ScrollAnimation animateOnce={true} animateIn="fadeIn">
               <ul className="timeline">
                 {TimelineItems[1995].map((item) => (
-                  <TimelineItem item={item} />
+                  <TimelineItem key={item.title} item={item} />
                 ))}
               </ul>
             </ScrollAnimation>

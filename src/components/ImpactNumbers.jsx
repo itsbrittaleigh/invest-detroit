@@ -50,13 +50,13 @@ const ImpactNumbers = () => {
           </div>
         </ScrollAnimation>
         <div className="bar-chart--desktop">
-          <div style={{ maxWidth: '950px', margin: '48px auto 0' }}>
+          <div style={{ maxWidth: '1030px', margin: '48px auto 0' }}>
             <ResponsiveContainer width="100%" height={200}>
               <BarChart
                 data={data}
                 width={150}
                 height={40}
-                barCategoryGap={8}
+                barCategoryGap={10}
                 onMouseMove={(state) => {
                   if (state.isTooltipActive) {
                     setFocusBar(state.activeTooltipIndex);
