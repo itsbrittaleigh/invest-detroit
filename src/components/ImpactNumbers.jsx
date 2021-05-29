@@ -27,7 +27,7 @@ const ImpactNumbers = () => {
   return (
     <section id="impact-numbers" className="section bg--yellow">
       <div className="wrapper">
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="section__heading">
             <div className="heading-icon__container heading-icon__container--light">
               <p className="heading-icon is-white">3</p>
@@ -35,16 +35,16 @@ const ImpactNumbers = () => {
             <h2 className="color--white">Impact Numbers</h2>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <h3 className="color--black weight--bold">Key Metrics (Since 1995)</h3>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="statistic statistic--large">
             <p className="statistic__number text--center">$439,632,386</p>
             <p className="statistic__label text--center" style={{ maxWidth: '100%' }}>Dollars deployed</p>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="bar-chart--mobile">
             <img src={BarChartMobile} alt="" />
           </div>
@@ -78,14 +78,14 @@ const ImpactNumbers = () => {
             </ResponsiveContainer>
           </div>
         </div>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <p className="text--center" style={{ marginBottom: '60px' }}>
             * 2020 Deployment total includes COVID Relief efforts and Strategic Neighborhood Fund
             program funding
           </p>
         </ScrollAnimation>
         
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <h3 className="color--black weight--bold">Key Metrics (2000 - 2020)</h3>
         </ScrollAnimation>
         {/* <p className="text--center" style={{margin: '0 auto 60px', maxWidth: '500px'}}>
@@ -93,7 +93,7 @@ const ImpactNumbers = () => {
           aspernatur vero numquam vitae provident dolorum officiis rerum molestiae obcaecati dicta
           debitis enim necessitatibus tenetur? At, iusto quod!
         </p> */}
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="statistic__section center">
             <div className="statistic-image__container">
               <p className="statistic-image__label">Investment</p>
@@ -105,7 +105,7 @@ const ImpactNumbers = () => {
             </div>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="statistic__section space">
             <div className="statistic">
               <p className="statistic__number">749</p>
@@ -121,7 +121,7 @@ const ImpactNumbers = () => {
             </div>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="statistic__section space">
             <div className="statistic-image__container">
               <p className="statistic-image__label">Housing</p>
@@ -137,7 +137,7 @@ const ImpactNumbers = () => {
             </div>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="statistic__section center">
             <div className="statistic-image__container">
               <p className="statistic-image__label">Employment</p>

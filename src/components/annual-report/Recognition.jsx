@@ -6,7 +6,7 @@ import Members from '../../data/RecognizedMembers';
 const Recognition = () => (
   <section id="recognition" className="section">
     <div className="wrapper">
-      <ScrollAnimation animateIn="fadeIn">
+      <ScrollAnimation animateOnce={true} animateIn="fadeIn">
         <div className="section__heading">
           <div className="heading-icon__container heading-icon__container--light">
             <p className="heading-icon">2</p>
@@ -67,10 +67,10 @@ const Recognition = () => (
         <div>
           <Element name="board">
             <div className="recognition-section" style={{ paddingTop: '0' }}>
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <h3>Invest Detroit Board</h3>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <ul>
                   {Members.Board.map((member) => (
                     <li>
@@ -86,10 +86,10 @@ const Recognition = () => (
           </Element>
           <Element name="staff">
             <div className="recognition-section">
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <h3>Invest Detroit Staff</h3>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <ul>
                   {Members.Staff.map((member) => (
                     <li>
@@ -105,10 +105,10 @@ const Recognition = () => (
           </Element>
           <Element name="cde-board">
             <div className="recognition-section">
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <h3>CDE Board Members</h3>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <ul>
                   {Members.CDE.map((member) => (
                     <li>
@@ -124,10 +124,10 @@ const Recognition = () => (
           </Element>
           <Element name="investment">
             <div className="recognition-section">
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <h3>Investment Committee</h3>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <ul>
                   {Members.Investment.map((member) => (
                     <li>
@@ -143,10 +143,10 @@ const Recognition = () => (
           </Element>
           <Element name="oversight">
             <div className="recognition-section">
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <h3>Oversight Committee</h3>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <ul>
                   {Members.Oversight.map((member) => (
                     <li>
@@ -162,10 +162,10 @@ const Recognition = () => (
           </Element>
           <Element name="advisory">
             <div className="recognition-section">
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <h3>Advisory Committee</h3>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <ul>
                   {Members.Advisory.map((member) => (
                     <li>
@@ -181,10 +181,10 @@ const Recognition = () => (
           </Element>
           <Element name="capital">
             <div className="recognition-section">
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <h3>First Capital Fund Committee</h3>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <ul>
                   {Members.Capital.map((member) => (
                     <li>
@@ -200,10 +200,10 @@ const Recognition = () => (
           </Element>
           <Element name="innovate">
             <div className="recognition-section">
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <h3>Detroit Innovate Committee</h3>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <ul>
                   {Members.Innovate.map((member) => (
                     <li>
@@ -219,13 +219,13 @@ const Recognition = () => (
           </Element>
           <Element name="donor">
             <div className="recognition-section">
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <h3>Donor List</h3>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <p>Special thanks to our community of philanthropic supporters who make this critical work possible.</p>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
+              <ScrollAnimation animateOnce={true} animateIn="fadeIn">
                 <ul style={{ borderBottom: 'none' }}>
                   {Members.Donor.map((member) => (
                     <li>

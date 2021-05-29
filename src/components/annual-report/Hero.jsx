@@ -10,7 +10,7 @@ const Hero = () => (
       src={HeroImg}
     />
     <div className="wrapper">
-      <ScrollAnimation animateIn="fadeIn">
+      <ScrollAnimation animateOnce={true} animateIn="fadeIn">
         <h1 className="hero__title">2020 Annual Report</h1>
       </ScrollAnimation>
       {/* <p className="lead text--center" style={{ maxWidth: '600px', margin: '0 auto' }}>

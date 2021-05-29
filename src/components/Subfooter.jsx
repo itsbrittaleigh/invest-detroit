@@ -102,7 +102,7 @@ const Subfooter = () => {
           </span>
         </h1>
         <div className="social-sharing">
-          <ScrollAnimation animateIn="fadeIn">
+          <ScrollAnimation animateOnce={true} animateIn="fadeIn">
             <div>
               <FacebookShareButton
                 quote="In 2020, Invest Detroit celebrated 25 years of commitment to sparking economic growth in Detroit. Learn more here!"
@@ -113,7 +113,7 @@ const Subfooter = () => {
               </FacebookShareButton>
             </div>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn">
+          <ScrollAnimation animateOnce={true} animateIn="fadeIn">
             <div>
               <TwitterShareButton
                 title="In 2020, Invest Detroit celebrated 25 years of commitment to sparking economic growth in Detroit. Learn more here!"
@@ -124,7 +124,7 @@ const Subfooter = () => {
               </TwitterShareButton>
             </div>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn">
+          <ScrollAnimation animateOnce={true} animateIn="fadeIn">
             <div role="button">
               <button
                 aria-label="copy link"

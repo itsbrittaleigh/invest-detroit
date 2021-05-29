@@ -6,7 +6,7 @@ const WhatsNext = () => (
   <section id="whats-next" className="section bg--light-gray">
     <div className="wrapper wrapper--flex">
       <div className="col--lt indented">
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="section__heading section__heading--with-bar">
             <div className="heading-icon__container heading-icon__container--light">
               <p className="heading-icon" style={{ marginLeft: '0' }}>5</p>
@@ -15,14 +15,14 @@ const WhatsNext = () => (
           </div>
         </ScrollAnimation>
         <div style={{ maxWidth: '670px' }}>
-          <ScrollAnimation animateIn="fadeIn">
+          <ScrollAnimation animateOnce={true} animateIn="fadeIn">
             <p className="lead color--dark-gray">
               As we expand our tools to help support the short-term economic recovery of our small
               businesses and startups, we continue to maintain our focus on long-term growth and programs
               strategies that support sustainability.
             </p>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn">
+          <ScrollAnimation animateOnce={true} animateIn="fadeIn">
             <p className="arial text--small color--dark-gray">
               Our four lines of business—real estate, small business,
               commercial and industrial, and venture investment—have proven to be an effective group of
@@ -32,7 +32,7 @@ const WhatsNext = () => (
               efforts.
             </p>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn">
+          <ScrollAnimation animateOnce={true} animateIn="fadeIn">
             <p className="arial text--small color--dark-gray weight--bold">
               Invest Detroit is built on a history of learning, adapting, and collaborating, and it is this
               spirit that will also drive our future.
@@ -41,7 +41,7 @@ const WhatsNext = () => (
         </div>
       </div>
       <div className="col--rt">
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="section-icon__container">
             <img src={Ahead} alt="Kitten" className="section-icon" />
           </div>

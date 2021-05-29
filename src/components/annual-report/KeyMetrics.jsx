@@ -22,7 +22,7 @@ const KeyMetrics = () => {
   return (
     <section id="key-metrics" className="section bg--black">
       <div className="wrapper">
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="section__heading">
             <div className="heading-icon__container">
               <p className="heading-icon">1</p>
@@ -31,7 +31,7 @@ const KeyMetrics = () => {
           </div>
         </ScrollAnimation>
         <div className="info-scroller annual-report">
-          <ScrollAnimation animateIn="fadeIn">
+          <ScrollAnimation animateOnce={true} animateIn="fadeIn">
             <nav className="info-scroller__navigation">
               <ul className="swiper-pagination" id="swiper__focus-pagination">
                 <li
@@ -65,74 +65,66 @@ const KeyMetrics = () => {
               </ul>
             </nav>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn">
-            {activeIndex === 0 && (
-              <div className="info-scroller__content annual-report">
-                <div className="key-metrics-statistic__wrapper">
-                  <div className="key-metrics-statistic">
-                    <img src={dollarsDeployedIcon} alt="Arrow facing up and right on bar graph" />
-                    <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
-                    <p className="key-metrics-statistic__number color--yellow">$20,280,756</p>
-                  </div>
-                  <div className="key-metrics-statistic">
-                    <img src={dollarsLeveragedIcon} alt="Stacks of cash" />
-                    <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
-                    <p className="key-metrics-statistic__number color--yellow">$70,238,274</p>
-                  </div>
+          <ScrollAnimation animateOnce={true} animateIn="fadeIn">
+            <div className={`info-scroller__content annual-report ${activeIndex === 0 ? 'is-active' : ''}`}>
+              <div className="key-metrics-statistic__wrapper">
+                <div className="key-metrics-statistic">
+                  <img src={dollarsDeployedIcon} alt="Arrow facing up and right on bar graph" />
+                  <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
+                  <p className="key-metrics-statistic__number color--yellow">$20,280,756</p>
+                </div>
+                <div className="key-metrics-statistic">
+                  <img src={dollarsLeveragedIcon} alt="Stacks of cash" />
+                  <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
+                  <p className="key-metrics-statistic__number color--yellow">$70,238,274</p>
                 </div>
               </div>
-            )}
-            {activeIndex === 1 && (
-              <div className="info-scroller__content annual-report">
-                <div className="key-metrics-statistic__wrapper">
-                  <div className="key-metrics-statistic">
-                    <img src={dollarsDeployedIconRed} alt="Arrow facing up and right on bar graph" />
-                    <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
-                    <p className="key-metrics-statistic__number color--red">$1,605,000</p>
-                  </div>
-                  <div className="key-metrics-statistic">
-                    <img src={dollarsLeveragedIconRed} alt="Stacks of cash" />
-                    <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
-                    <p className="key-metrics-statistic__number color--red">$1,643,614</p>
-                  </div>
+            </div>
+            <div className={`info-scroller__content annual-report ${activeIndex === 1 ? 'is-active' : ''}`}>
+              <div className="key-metrics-statistic__wrapper">
+                <div className="key-metrics-statistic">
+                  <img src={dollarsDeployedIconRed} alt="Arrow facing up and right on bar graph" />
+                  <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
+                  <p className="key-metrics-statistic__number color--red">$1,605,000</p>
+                </div>
+                <div className="key-metrics-statistic">
+                  <img src={dollarsLeveragedIconRed} alt="Stacks of cash" />
+                  <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
+                  <p className="key-metrics-statistic__number color--red">$1,643,614</p>
                 </div>
               </div>
-            )}
-            {activeIndex === 2 && (
-              <div className="info-scroller__content annual-report">
-                <div className="key-metrics-statistic__wrapper">
-                  <div className="key-metrics-statistic">
-                    <img src={dollarsDeployedIconBlue} alt="Arrow facing up and right on bar graph" />
-                    <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
-                    <p className="key-metrics-statistic__number color--blue">$2,659,250</p>
-                  </div>
-                  <div className="key-metrics-statistic">
-                    <img src={dollarsLeveragedIconBlue} alt="Stacks of cash" />
-                    <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
-                    <p className="key-metrics-statistic__number color--blue">$218,250</p>
-                  </div>
+            </div>
+            <div className={`info-scroller__content annual-report ${activeIndex === 2 ? 'is-active' : ''}`}>
+              <div className="key-metrics-statistic__wrapper">
+                <div className="key-metrics-statistic">
+                  <img src={dollarsDeployedIconBlue} alt="Arrow facing up and right on bar graph" />
+                  <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
+                  <p className="key-metrics-statistic__number color--blue">$2,659,250</p>
+                </div>
+                <div className="key-metrics-statistic">
+                  <img src={dollarsLeveragedIconBlue} alt="Stacks of cash" />
+                  <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
+                  <p className="key-metrics-statistic__number color--blue">$218,250</p>
                 </div>
               </div>
-            )}
-            {activeIndex === 3 && (
-              <div className="info-scroller__content annual-report">
-                <div className="key-metrics-statistic__wrapper">
-                  <div className="key-metrics-statistic">
-                    <img src={dollarsDeployedIconTeal} alt="Arrow facing up and right on bar graph" />
-                    <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
-                    <p className="key-metrics-statistic__number color--teal">$5,810,231</p>
-                  </div>
-                  <div className="key-metrics-statistic">
-                    <img src={dollarsLeveragedIconTeal} alt="Stacks of cash" />
-                    <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
-                    <p className="key-metrics-statistic__number color--teal">$122,000,000</p>
-                  </div>
+            </div>
+            <div className={`info-scroller__content annual-report ${activeIndex === 3 ? 'is-active' : ''}`}>
+              <div className="key-metrics-statistic__wrapper">
+                <div className="key-metrics-statistic">
+                  <img src={dollarsDeployedIconTeal} alt="Arrow facing up and right on bar graph" />
+                  <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
+                  <p className="key-metrics-statistic__number color--teal">$5,810,231</p>
+                </div>
+                <div className="key-metrics-statistic">
+                  <img src={dollarsLeveragedIconTeal} alt="Stacks of cash" />
+                  <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
+                  <p className="key-metrics-statistic__number color--teal">$122,000,000</p>
                 </div>
               </div>
-            )}
+            </div>
           </ScrollAnimation>
         </div>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="pie-chart__section">
             <div className="key-metrics-statistic">
               <img className="key-metrics-statistic__image" src={dollarsDeployedIcon} alt="Two people" />
@@ -142,7 +134,7 @@ const KeyMetrics = () => {
             <img className="pie-chart__image" src={Deployment} alt="" />
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="pie-chart__section">
             <div className="key-metrics-statistic">
               <img className="key-metrics-statistic__image" src={dollarsLeveragedIcon} alt="Two people" />
@@ -152,7 +144,7 @@ const KeyMetrics = () => {
             <img className="pie-chart__image" src={DollarsLeveraged} alt="" />
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="pie-chart__section" style={{ borderBottom: '1px solid #626366' }}>
             <div className="key-metrics-statistic">
               <img className="key-metrics-statistic__image" src={heartIcon} alt="Hearts" style={{ height: '25px' }} />
@@ -162,7 +154,7 @@ const KeyMetrics = () => {
             <img className="pie-chart__image" src={CovidRelief} alt="" />
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="statistic__section space" style={{ borderColor: '#626366'}}>
             <div className="statistic">
               <p className="statistic__number">370</p>
@@ -178,7 +170,7 @@ const KeyMetrics = () => {
             </div>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="statistic__section space" style={{ borderColor: '#626366'}}>
             <div className="statistic-image__container">
               <p className="statistic-image__label color--black bg--yellow">Housing</p>
@@ -194,7 +186,7 @@ const KeyMetrics = () => {
             </div>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="statistic__section space" style={{ borderColor: '#626366'}}>
             <div className="statistic">
               <p className="statistic__number">1,866</p>
