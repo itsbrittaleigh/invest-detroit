@@ -1,3 +1,17 @@
+@media only screen and (min-width: $breakpoint) {
+  .bar-chart--mobile {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: $breakpoint - 1) {
+  .bar-chart--desktop {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 .custom-tooltip {
   padding: 6px;
   background-color: $black;
@@ -10,6 +24,22 @@
 }
 
 .recharts-tooltip-cursor {
+  display: none;
+  visibility: hidden;
+}
+
+.recharts-text.recharts-cartesian-axis-tick-value {
+  font-size: 12px;
+  fill: $black !important;
+  font-weight: 600;
+}
+
+.recharts-cartesian-axis-line {
+  display: none;
+  visibility: hidden;
+}
+
+.recharts-cartesian-axis-tick-line {
   display: none;
   visibility: hidden;
 }

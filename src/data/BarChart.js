@@ -1,9 +1,5 @@
 const BarChartData = [
   {
-    name: '1995',
-    dl: 0,
-  },
-  {
     name: '1996',
     dl: 12087500,
   },

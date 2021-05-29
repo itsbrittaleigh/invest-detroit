@@ -97,6 +97,10 @@
 
 .statistic--large {
   .statistic__number {
-    font-size: 80px;
+    font-size: 50px;
+
+    @media only screen and (min-width: $breakpoint) {
+      font-size: 80px;
+    }
   }
 }
