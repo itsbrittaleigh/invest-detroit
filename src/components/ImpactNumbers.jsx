@@ -36,7 +36,7 @@ const ImpactNumbers = () => {
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateOnce={true} animateIn="fadeIn">
-          <h3 className="color--black weight--bold">Key Metrics (Since 1995)</h3>
+          <h3 className="color--black weight--bold">Key Metrics (since inception)</h3>
         </ScrollAnimation>
         <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="statistic statistic--large">
@@ -84,15 +84,7 @@ const ImpactNumbers = () => {
             program funding
           </p>
         </ScrollAnimation>
-        
-        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
-          <h3 className="color--black weight--bold">Key Metrics (2000 - 2020)</h3>
-        </ScrollAnimation>
-        {/* <p className="text--center" style={{margin: '0 auto 60px', maxWidth: '500px'}}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ratione tempora, asperiores
-          aspernatur vero numquam vitae provident dolorum officiis rerum molestiae obcaecati dicta
-          debitis enim necessitatibus tenetur? At, iusto quod!
-        </p> */}
+
         <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="statistic__section center">
             <div className="statistic-image__container">
@@ -138,7 +130,7 @@ const ImpactNumbers = () => {
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateOnce={true} animateIn="fadeIn">
-          <div className="statistic__section center">
+          <div className="statistic__section center" style={{ borderBottom: 'none' }}>
             <div className="statistic-image__container">
               <p className="statistic-image__label">Employment</p>
               <img className="statistic-image__image" src={Employment} alt="" />

@@ -187,7 +187,7 @@ const KeyMetrics = () => {
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateOnce={true} animateIn="fadeIn">
-          <div className="statistic__section space" style={{ borderColor: '#626366'}}>
+          <div className="statistic__section space" style={{ border: 'none' }}>
             <div className="statistic">
               <p className="statistic__number">1,866</p>
               <p className="statistic__label">Jobs created or retained</p>

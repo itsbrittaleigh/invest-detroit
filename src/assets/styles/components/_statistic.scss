@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   padding: 48px 0;
-  border-bottom: 1px solid rgba($white, 0.5);
+  border-bottom: 1px solid #F1CF70;
   max-width: 1000px;
   margin: 0 auto;
 
@@ -16,10 +16,6 @@
 
   &.space {
     justify-content: space-around;
-  }
-
-  &:last-of-type {
-    border-bottom: 0;
   }
 
   @media only screen and (max-width: $breakpoint - 1) {
@@ -76,8 +72,8 @@
 }
 
 .statistic-image__image {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   object-fit: cover;
 }
 

@@ -111,7 +111,7 @@ const TimelineItems2018 = [
   },
   {
     type: 'milestone',
-    title: 'ID Venture reaches 100 startups in its portfolio of companies.',
+    title: 'ID Venture reaches 100 funded startups in its portfolio of companies',
     subtitle: 'Milestone',
     className: 'is-left',
   },
@@ -503,7 +503,7 @@ const TimelineItems1995 = [
   },
   {
     type: 'milestone',
-    title: 'Jerry Halperin is hired as president to manage the fund and Karen Harris to setup and create the office. Karen would be with the organization for 23 years and came back to help create this timeline.',
+    title: 'Jerry Halperin is hired as president to manage the fund and Karen Harris (pictured here with Vice Chair Chip Miller) to setup and create the office. Karen would be with the organization for 23 years and came back to help create this timeline.',
     subtitle: 'Milestone',
     image: {
       src: Harris,

@@ -97,6 +97,11 @@ const Header = () => {
                   What's Next
                 </span>
               </li>
+              <li className="main-navigation__list-item">
+                <Link to="/2020-annual-report" className="main-navigation__list-item-link weight--normal">
+                  2020 Annual Report
+                </Link>
+              </li>
               <li className="main-navigation__list-item main-navigation__list-item--special">
                 <Link to="/2020-annual-report" className="main-navigation__list-item-link">
                   <span className="list-item__title">2020 Annual Report</span>

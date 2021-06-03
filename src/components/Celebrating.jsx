@@ -37,7 +37,7 @@ const Celebrating = () => (
             <p className="arial color--gray text--small">
               Last year was a challenging year for all of us, and this spirit of partnership at the heart of our
               mission has never more important. As we look forward to a new year with hope and optimism,
-              we believe it also important to reflect on our past and remember the projects and people that
+              we believe it is also important to reflect on our past and remember the projects and people that
               have helped form a strong foundation from which to build. Now moving into a phase of recovery,
               we still have our eyes on growth.
             </p>

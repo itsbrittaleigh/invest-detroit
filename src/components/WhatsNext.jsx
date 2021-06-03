@@ -19,7 +19,7 @@ const WhatsNext = () => (
           <ScrollAnimation animateOnce={true} animateIn="fadeIn">
             <p className="lead color--dark-gray">
               As we expand our tools to help support the short-term economic recovery of our small
-              businesses and startups, we continue to maintain our focus on long-term growth and programs
+              businesses and startups, we continue to maintain our focus on long-term growth and program
               strategies that support sustainability.
             </p>
           </ScrollAnimation>

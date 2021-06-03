@@ -3,9 +3,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import Commercial from '../assets/images/about/commercial.png';
 import Density from '../assets/images/about/density.png';
 import Inclusivity from '../assets/images/about/inclusivity.png';
+import Inclusivity2 from '../assets/images/about/inclusivity2.png';
 import Jobs from '../assets/images/about/job-opportunities.png';
 import Neighborhoods from '../assets/images/about/neighborhoods.png';
-import RealEstate from '../assets/images/about/real-estate.png';
 import SmallBusiness from '../assets/images/about/small-business.png';
 import Venture from '../assets/images/about/venture-capital.png';
 
@@ -68,7 +68,7 @@ const About = () => {
           </ScrollAnimation>
           <ScrollAnimation animateOnce={true} animateIn="fadeIn">
             <div className={`info-scroller__content ${activeFocusIndex === 0 ? 'is-active' : ''}`}>
-              <img className="info-scroller__image" src={RealEstate} alt="" />
+              <img className="info-scroller__image" src={Inclusivity} alt="" />
               <div>
                 <h4 className="info-scroller__heading color--yellow">Real Estate</h4>
                 <p>
@@ -209,7 +209,7 @@ const About = () => {
               </div>
             </div>
             <div className={`info-scroller__content ${activeGoalIndex === 3 ? 'is-active' : ''}`}>
-              <img className="info-scroller__image" src={Inclusivity} alt="" />
+              <img className="info-scroller__image" src={Inclusivity2} alt="" />
               <div>
                 <h4 className="info-scroller__heading color--teal">Support Inclusivity</h4>
                 <p>

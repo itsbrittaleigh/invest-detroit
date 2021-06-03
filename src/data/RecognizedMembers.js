@@ -489,6 +489,9 @@ const Donor = [
     name: 'American Axle Manufacturing',
   },
   {
+    name: 'AT&T',
+  },
+  {
     name: 'Ballmer Group',
   },
   {
@@ -519,6 +522,9 @@ const Donor = [
     name: 'Ford Foundation',
   },
   {
+    name: 'Ford Motor Company',
+  },
+  {
     name: 'Hudson-Webber Foundation',
   },
   {
@@ -532,9 +538,6 @@ const Donor = [
   },
   {
     name: 'W.K. Kellogg Foundation',
-  },
-  {
-    name: ''
   },
   {
     name: 'John S. and James L. Knight Foundation',
@@ -562,6 +565,9 @@ const Donor = [
   },
   {
     name: 'Ralph C. Wilson, Jr. Foundation',
+  },
+  {
+    name: 'Rocket Community Fund',
   },
 ];
 
