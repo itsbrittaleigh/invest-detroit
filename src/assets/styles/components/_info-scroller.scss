@@ -37,10 +37,13 @@
   }
 
   li {
-    padding: 0;
+    padding: 6px;
+    border: 2px solid $black;
+    border-radius: 3px;
     margin: 0;
     display: flex;
     align-items: center;
+    transition: $transition;
   }
 
   @media only screen and (min-width: 700px) {
@@ -49,14 +52,6 @@
       justify-content: center;
       margin-top: 20px;
     }
-
-    li {
-      margin-right: 24px;
-
-      &:last-of-type {
-        margin-right: 0;
-      }
-    }
   }
 
   .info-scroller__item-1,
@@ -64,7 +59,6 @@
   .info-scroller__item-3,
   .info-scroller__item-4 {
     align-items: center;
-    border-radius: 0;
     cursor: pointer;
     display: flex;
     height: auto;
@@ -72,24 +66,19 @@
     font-size: 17px;
     
     .info-scroller__item-marker {
-      align-items: center;
-      border-radius: 22px;
-      border: 2px solid;
-      display: flex;
-      height: 22px;
-      justify-content: center;
       margin-right: 6px;
-      width: 22px;
     }
   }
 
   .info-scroller__item-1,
   .info-scroller__item-1 a {
+    border-color: $yellow;
     color: $yellow;
   }
 
   .info-scroller__item-2,
   .info-scroller__item-2 a {
+    border-color: $red;
     color: $red;
   }
   
@@ -100,11 +89,13 @@
 
   .info-scroller__item-3,
   .info-scroller__item-3 a {
+    border-color: $blue;
     color: $blue;
   }
 
   .info-scroller__item-4,
-    .info-scroller__item-4 a {
+  .info-scroller__item-4 a {
+    border-color: $teal;
     color: $teal;
   }
 }
@@ -209,26 +200,30 @@
   opacity: 1;
 }
 
-.info-scroller__item-1.is-active .info-scroller__item-marker {
+li.is-active .info-scroller__item-marker {
+  color: white;
+}
+
+.info-scroller__item-1.is-active,
+.info-scroller__item-1:hover {
   background-color: $yellow;
-  border-color: $yellow;
-  color: white;
+  color: $white;
 }
 
-.info-scroller__item-2.is-active .info-scroller__item-marker {
+.info-scroller__item-2.is-active,
+.info-scroller__item-2:hover {
   background-color: $red;
-  border-color: $red;
   color: white;
 }
 
-.info-scroller__item-3.is-active .info-scroller__item-marker {
+.info-scroller__item-3.is-active,
+.info-scroller__item-3:hover {
   background-color: $blue;
-  border-color: $blue;
   color: white;
 }
 
-.info-scroller__item-4.is-active .info-scroller__item-marker {
+.info-scroller__item-4.is-active,
+.info-scroller__item-4:hover {
   background-color: $teal;
-  border-color: $teal;
   color: white;
 }

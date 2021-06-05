@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,6 +12,9 @@ import Home from './pages/Home';
 import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
+  const TRACKING_ID = '';
+  ReactGA.initialize(TRACKING_ID);
+
   return (
     <ParallaxProvider>
       <Router>

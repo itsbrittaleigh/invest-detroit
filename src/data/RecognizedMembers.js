@@ -555,6 +555,9 @@ const Donor = [
     name: 'Penske Corporation',
   },
   {
+    name: 'Rocket Community Fund',
+  },
+  {
     name: 'MacKenzie Scott',
   },
   {
@@ -565,9 +568,6 @@ const Donor = [
   },
   {
     name: 'Ralph C. Wilson, Jr. Foundation',
-  },
-  {
-    name: 'Rocket Community Fund',
   },
 ];
 
