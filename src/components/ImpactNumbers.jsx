@@ -46,7 +46,7 @@ const ImpactNumbers = () => {
         </ScrollAnimation>
         <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <div className="bar-chart--mobile">
-            <img src={BarChartMobile} alt="" />
+            <img src={BarChartMobile} alt="Bar chart" />
           </div>
         </ScrollAnimation>
         <div className="bar-chart--desktop">
@@ -89,7 +89,7 @@ const ImpactNumbers = () => {
           <div className="statistic__section center">
             <div className="statistic-image__container">
               <p className="statistic-image__label">Investment</p>
-              <img className="statistic-image__image" src={Investment} alt="" />
+              <img className="statistic-image__image" src={Investment} alt="Rendering of buildings" />
             </div>
             <div className="statistic">
               <p className="statistic__number large">$2,894,601,873</p>
@@ -105,7 +105,7 @@ const ImpactNumbers = () => {
             </div>
             <div className="statistic-image__container">
               <p className="statistic-image__label">Business</p>
-              <img className="statistic-image__image" src={Business} alt="" />
+              <img className="statistic-image__image" src={Business} alt="Man smiling in front of business" />
             </div>
             <div className="statistic">
               <p className="statistic__number">6,068,507</p>
@@ -117,7 +117,7 @@ const ImpactNumbers = () => {
           <div className="statistic__section space">
             <div className="statistic-image__container">
               <p className="statistic-image__label">Housing</p>
-              <img className="statistic-image__image" src={Housing} alt="" />
+              <img className="statistic-image__image" src={Housing} alt="Rendering of building" />
             </div>
             <div className="statistic">
               <p className="statistic__number">5,070</p>
@@ -133,7 +133,7 @@ const ImpactNumbers = () => {
           <div className="statistic__section center" style={{ borderBottom: 'none' }}>
             <div className="statistic-image__container">
               <p className="statistic-image__label">Employment</p>
-              <img className="statistic-image__image" src={Employment} alt="" />
+              <img className="statistic-image__image" src={Employment} alt="Woman posing in front of FRESH sign" />
             </div>
             <div className="statistic">
               <p className="statistic__number">12,848</p>

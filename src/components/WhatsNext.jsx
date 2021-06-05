@@ -45,7 +45,7 @@ const WhatsNext = () => (
         <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <Parallax y={[-20, 40]}>
             <div className="section-icon__container">
-              <img src={Ahead} alt="Kitten" className="section-icon" />
+              <img src={Ahead} alt="Arrow pointing to right" className="section-icon" />
             </div>
           </Parallax>
         </ScrollAnimation>

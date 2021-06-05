@@ -21,47 +21,47 @@ const Subfooter = () => {
     {
       text: 'Partnering',
       image: Partnership,
-      imageAlt: 'Kitten',
+      imageAlt: 'People standing in an empty dirt lot with shovels and hard hats',
     },
     {
       text: 'Learning',
       image: Learning,
-      imageAlt: 'Kitten',
+      imageAlt: 'Two people making crafts',
     },
     {
       text: 'Collaborating',
       image: Collaboration,
-      imageAlt: 'Kitten',
+      imageAlt: 'Many people sitting around tables listening to a presenter',
     },
     {
       text: 'Funding',
       image: Funding,
-      imageAlt: 'Kitten',
+      imageAlt: 'Top of the David Whitney building in downtown Detroit',
     },
     {
       text: 'Adapting',
       image: Adapting,
-      imageAlt: 'Kitten',
+      imageAlt: 'Capital city fund 2.0',
     },
     {
       text: 'Catalyzing',
       image: Catalyzing,
-      imageAlt: 'Kitten',
+      imageAlt: 'People standing with cleaning supplies and paint brushes in hallway with cages',
     },
     {
       text: 'Growing',
       image: Growing,
-      imageAlt: 'Kitten',
+      imageAlt: 'Squares of headshots of many people',
     },
     {
       text: 'Investing',
       image: Investing,
-      imageAlt: 'Kitten',
+      imageAlt: 'People on a stage smiling and posing with large checks',
     },
     {
       text: 'Loving Detroit',
       image: Loving,
-      imageAlt: 'Kitten',
+      imageAlt: 'People smiling at the camera, posing in front of a stairwell',
     },
   ];
 

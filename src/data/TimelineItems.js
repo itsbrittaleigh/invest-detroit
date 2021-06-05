@@ -42,7 +42,7 @@ const TimelineItems2020 = [
     subtitle: 'Milestone',
     image: {
       src: Zoom,
-      alt: 'Kitten',
+      alt: 'People sitting on a Zoom call',
     },
     className: 'is-left',
   },
@@ -83,7 +83,7 @@ const TimelineItems2019 = [
     subtitle: 'Project / Business',
     image: {
       src: PizzaBar,
-      alt: 'Kitten',
+      alt: 'Two people smiling in front of a sign saying "This Neighborhood Project, Coming 2020"',
     },
     className: 'is-left',
   },
@@ -93,7 +93,7 @@ const TimelineItems2019 = [
     subtitle: 'Milestone',
     image: {
       src: AMIC,
-      alt: 'Kitten',
+      alt: 'Many people posing on a stage with oversized checks',
     },
   },
 ];
@@ -105,7 +105,7 @@ const TimelineItems2018 = [
     subtitle: 'Milestone',
     image: {
       src: Map18,
-      alt: 'Kitten',
+      alt: 'Map of Detroit with SNF planning projects and expanded SNF planning projects',
     },
     className: 'is-left',
   },
@@ -121,7 +121,7 @@ const TimelineItems2018 = [
     subtitle: 'Project/Business',
     image: {
       src: Siegel,
-      alt: 'Kitten',
+      alt: 'Man standing in front of a brick storefront with a circular saw',
     },
   },
 ];
@@ -139,7 +139,7 @@ const TimelineItems2017 = [
     subtitle: 'Project/Business',
     image: {
       src: Coe,
-      alt: 'Kitten',
+      alt: 'Picture of residential apartment building',
     },
     className: 'is-left',
   },
@@ -149,7 +149,7 @@ const TimelineItems2017 = [
     subtitle: 'Project/Business',
     image: {
       src: Kamper,
-      alt: 'Kitten',
+      alt: 'Picture of high-rise residential apartment building',
     },
     className: 'is-left',
   },
@@ -165,7 +165,7 @@ const TimelineItems2017 = [
     subtitle: 'Project/Business',
     image: {
       src: Metropolitan,
-      alt: 'Kitten',
+      alt: 'Picture of hotel lit up at night',
     },
   },
   {
@@ -174,7 +174,7 @@ const TimelineItems2017 = [
     subtitle: 'Project/Business',
     image: {
       src: Norma,
-      alt: 'Kitten',
+      alt: 'Man smiling in front of storefront #14628, Norma Gs',
     },
   },
 ];
@@ -186,7 +186,7 @@ const TimelineItems2016 = [
     subtitle: 'Milestone',
     image: {
       src: Strategic,
-      alt: 'Kitten',
+      alt: 'Man speaking at podium in white tent with audience in front of him and others seated in a line behind him',
     },
     className: 'is-left',
   },
@@ -202,7 +202,7 @@ const TimelineItems2016 = [
     subtitle: 'Project/Business',
     image: {
       src: Murray,
-      alt: 'Kitten',
+      alt: 'People in masks, socially-distanced standing in front of red building, one speaking at a podium',
     },
   },
 ];
@@ -214,7 +214,7 @@ const TimelineItems2014 = [
     subtitle: 'Partnership',
     image: {
       src: Titanium,
-      alt: 'Kitten',
+      alt: 'Global Titanium Inc building with white flowered trees and an American flag on a flagpole',
     },
     className: 'is-left',
   },
@@ -230,7 +230,7 @@ const TimelineItems2014 = [
     subtitle: 'Milestone',
     image: {
       src: Hacker,
-      alt: 'Kitten',
+      alt: 'Young adults smiling at camera in gray t-shirts',
     },
     className: 'is-left',
   },
@@ -246,7 +246,7 @@ const TimelineItems2014 = [
     subtitle: 'Project/Business',
     image: {
       src: Willis,
-      alt: 'Kitten',
+      alt: 'Mixed-use building with McDonalds sign in the background',
     },
   },
   {
@@ -255,7 +255,7 @@ const TimelineItems2014 = [
     subtitle: 'Project/Business',
     image: {
       src: M1,
-      alt: 'Kitten',
+      alt: 'QLine streetcar in downtown Detroit',
     },
   },
 ];
@@ -267,7 +267,7 @@ const TimelineItems2013 = [
     subtitle: 'Partnership',
     image: {
       src: TODMap,
-      alt: 'Kitten',
+      alt: 'Map of greater downtown Detroit',
     },
     className: 'is-left',
   },
@@ -280,7 +280,7 @@ const TimelineItems2012 = [
     subtitle: 'Project/Business',
     image: {
       src: Meijer,
-      alt: 'Kitten',
+      alt: 'Meijer building with shoppers out front',
     },
     className: 'is-left',
   },
@@ -290,7 +290,7 @@ const TimelineItems2012 = [
     subtitle: 'Project/Business',
     image: {
       src: Seva,
-      alt: 'Kitten',
+      alt: 'The Nnamdi activation alley with Seva restaurant',
     },
   },
 ];
@@ -308,7 +308,7 @@ const TimelineItems2011 = [
     subtitle: 'Project/Business',
     image: {
       src: CHASS,
-      alt: 'Kitten',
+      alt: 'Four women walking down hallway',
     },
     className: 'is-left',
   },
@@ -318,7 +318,7 @@ const TimelineItems2011 = [
     subtitle: 'Project/Business',
     image: {
       src: Auburn,
-      alt: 'Kitten',
+      alt: 'The Auburn apartment building above thai restaurant Go Sy Thai',
     },
     className: 'is-left',
   },
@@ -328,7 +328,7 @@ const TimelineItems2011 = [
     subtitle: 'Partnership',
     image: {
       src: TODPlan,
-      alt: 'Kitten',
+      alt: 'Screenshot of pamphlet titled "Greated Downtown TOD strategy"',
     },
   }
 ];
@@ -352,7 +352,7 @@ const TimelineItems2010 = [
     subtitle: 'Project/Business',
     image: {
       src: Capital,
-      alt: 'Kitten',
+      alt: 'Capital Park and surrounding buildings',
     },
     className: 'is-left',
   },
@@ -362,7 +362,7 @@ const TimelineItems2010 = [
     subtitle: 'Project/Business',
     image: {
       src: Broderick,
-      alt: 'Kitten',
+      alt: 'Broderick high-rise tower',
     },
   }
 ];
@@ -398,7 +398,7 @@ const TimelineItems2005 = [
     subtitle: 'Partnership',
     image: {
       src: SuperBowl,
-      alt: 'Kitten',
+      alt: 'Downtown Detroit lit up at night, Ford Field in distance very bright',
     },
     className: 'is-left',
   },
@@ -409,7 +409,7 @@ const TimelineItems2005 = [
     className: isFirefox ? '' : 'is-left',
     image: {
       src: TOD,
-      alt: 'Kitten',
+      alt: 'People pointing at presentation and discussing',
     },
   },
   {
@@ -418,7 +418,7 @@ const TimelineItems2005 = [
     subtitle: 'Project/Business',
     image: {
       src: Kennedy,
-      alt: 'Kitten',
+      alt: 'Fountain in Campus Martius park',
     },
   },
 ];
@@ -430,7 +430,7 @@ const TimelineItems2003 = [
     subtitle: 'Milestone',
     image: {
       src: Cullen,
-      alt: 'Kitten',
+      alt: 'Smiling headshot of a man',
     },
     className: 'is-left',
   },
@@ -440,7 +440,7 @@ const TimelineItems2003 = [
     subtitle: 'Project/Business',
     image: {
       src: Kales,
-      alt: 'Kitten',
+      alt: 'Kales building high-rise with fountain in foreground',
     },
     className: isFirefox ? '' : 'is-left',
   },
@@ -453,7 +453,7 @@ const TimelineItems2001 = [
     subtitle: 'Milestone',
     image: {
       src: Dave,
-      alt: 'Kitten',
+      alt: 'Headshot of smiling man',
     },
     className: 'is-left',
   },
@@ -471,7 +471,7 @@ const TimelineItems1997 = [
     subtitle: 'Milestone',
     image: {
       src: Ferry,
-      alt: 'Kitten',
+      alt: 'Old orange brick Victorian-style home with ivy',
     },
     className: 'is-left',
   },
@@ -484,7 +484,7 @@ const TimelineItems1996 = [
     subtitle: 'Project/Business',
     image: {
       src: Report,
-      alt: 'Kitten',
+      alt: 'Detroit Investment fund 1996 community report; backing comeback of Detroit',
     },
     className: 'is-left',
   },
@@ -497,7 +497,7 @@ const TimelineItems1995 = [
     subtitle: 'Milestone',
     image: {
       src: Board,
-      alt: 'Kitten',
+      alt: 'Grainy photograph of men sitting and standing, smiling at camera',
     },
     className: 'is-left',
   },
@@ -507,7 +507,7 @@ const TimelineItems1995 = [
     subtitle: 'Milestone',
     image: {
       src: Harris,
-      alt: 'Kitten',
+      alt: 'Man and woman smiling at camera',
     },
   }
 ];

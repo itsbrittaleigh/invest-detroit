@@ -82,7 +82,7 @@ const Financials = () => {
               </div>
             </ScrollAnimation>
           </div>
-          <img className="pie-chart__image" src={PortfolioComp} alt="" />
+          <img className="pie-chart__image" src={PortfolioComp} alt="Pie chart of combined portfolio composition, 68.7% real estate, 3.9% small business; 14.4% venture investments; 13% commercial and industrial" />
         </div>
       </div>
     </section>

@@ -131,7 +131,7 @@ const KeyMetrics = () => {
               <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
               <p className="key-metrics-statistic__number color--white">$30,355,237</p>
             </div>
-            <img className="pie-chart__image" src={Deployment} alt="" />
+            <img className="pie-chart__image" src={Deployment} alt="Pie chart of dollars deployed; 66.8% real estate; 19.1% venture investments; 8.8% commercial and industrial; 5.3% small" />
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateOnce={true} animateIn="fadeIn">
@@ -141,7 +141,7 @@ const KeyMetrics = () => {
               <p className="key-metrics-statistic__label color--white">Dollars Leveraged</p>
               <p className="key-metrics-statistic__number color--white">$194,100,138</p>
             </div>
-            <img className="pie-chart__image" src={DollarsLeveraged} alt="" />
+            <img className="pie-chart__image" src={DollarsLeveraged} alt="Pie chart of dollars leveraged; 36.2% real estate; 62.9% venture investments; 0.8% small business; 0.1% commercial and industrial" />
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateOnce={true} animateIn="fadeIn">
@@ -151,7 +151,7 @@ const KeyMetrics = () => {
               <p className="key-metrics-statistic__label color--white">COVID Relief</p>
               <p className="key-metrics-statistic__number color--white">$3,906,601</p>
             </div>
-            <img className="pie-chart__image" src={CovidRelief} alt="" />
+            <img className="pie-chart__image" src={CovidRelief} alt="Pie chart of covid relief; 23.2% property owner rental relief fund; 9% small business loan relief; 67.8% tech startup stabilization fund" />
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateOnce={true} animateIn="fadeIn">
@@ -162,7 +162,7 @@ const KeyMetrics = () => {
             </div>
             <div className="statistic-image__container">
               <p className="statistic-image__label bg--yellow color--black">Business</p>
-              <img className="statistic-image__image" src={Business} alt="" />
+              <img className="statistic-image__image" src={Business} alt="Three people smiling at camera in front of building" />
             </div>
             <div className="statistic">
               <p className="statistic__number">446,382</p>
@@ -174,7 +174,7 @@ const KeyMetrics = () => {
           <div className="statistic__section space" style={{ borderColor: '#626366'}}>
             <div className="statistic-image__container">
               <p className="statistic-image__label color--black bg--yellow">Housing</p>
-              <img className="statistic-image__image" src={Housing} alt="" />
+              <img className="statistic-image__image" src={Housing} alt="Apartment building" />
             </div>
             <div className="statistic">
               <p className="statistic__number">84</p>
@@ -198,7 +198,7 @@ const KeyMetrics = () => {
             </div>
             <div className="statistic-image__container">
               <p className="statistic-image__label color--black bg--yellow">Employment</p>
-              <img className="statistic-image__image" src={Employment} alt="" />
+              <img className="statistic-image__image" src={Employment} alt="Woman smiling at camera in front of computers" />
             </div>
           </div>
         </ScrollAnimation>

@@ -5,7 +5,7 @@ import HeroImg from '../../assets/images/hero__2020.jpg';
 const Hero = () => (
   <section id="hero" className="hero">
     <img
-      alt=""
+      alt="People in squares smiling at camera"
       className="hero__img is-active"
       src={HeroImg}
     />

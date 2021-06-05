@@ -68,7 +68,7 @@ const About = () => {
           </ScrollAnimation>
           <ScrollAnimation animateOnce={true} animateIn="fadeIn">
             <div className={`info-scroller__content ${activeFocusIndex === 0 ? 'is-active' : ''}`}>
-              <img className="info-scroller__image" src={Inclusivity} alt="" />
+              <img className="info-scroller__image" src={Inclusivity} alt="Man smiling at camera in front of wooden framed building" />
               <div>
                 <h4 className="info-scroller__heading color--yellow">Real Estate</h4>
                 <p>
@@ -84,7 +84,7 @@ const About = () => {
               </div>
             </div>
             <div className={`info-scroller__content ${activeFocusIndex === 1 ? 'is-active' : ''}`}>
-              <img className="info-scroller__image" src={SmallBusiness} alt="" />
+              <img className="info-scroller__image" src={SmallBusiness} alt="Woman smiling at camera in office" />
               <div>
                 <h4 className="info-scroller__heading color--red">Small Business</h4>
                 <p>
@@ -98,7 +98,7 @@ const About = () => {
               </div>
             </div>
             <div className={`info-scroller__content ${activeFocusIndex === 2 ? 'is-active' : ''}`}>
-              <img className="info-scroller__image" src={Commercial} alt="" />
+              <img className="info-scroller__image" src={Commercial} alt="Man smiling at camera from warehouse" />
               <div>
                 <h4 className="info-scroller__heading color--blue">Commercial & Industrial</h4>
                 <p>
@@ -111,7 +111,7 @@ const About = () => {
               </div>
             </div>
             <div className={`info-scroller__content ${activeFocusIndex === 3 ? 'is-active' : ''}`}>
-              <img className="info-scroller__image" src={Venture} alt="" />
+              <img className="info-scroller__image" src={Venture} alt="Man smiling at camera from office" />
               <div>
                 <h4 className="info-scroller__heading color--teal">Venture Investments</h4>
                 <p>
@@ -168,7 +168,7 @@ const About = () => {
           </ScrollAnimation>
           <ScrollAnimation animateOnce={true} animateIn="fadeIn">
             <div className={`info-scroller__content ${activeGoalIndex === 0 ? 'is-active' : ''}`}>
-              <img className="info-scroller__image" src={Neighborhoods} alt="" />
+              <img className="info-scroller__image" src={Neighborhoods} alt="Two people smiling at camera" />
               <div>
                 <h4 className="info-scroller__heading color--yellow">Strengthen Neighborhoods</h4>
                 <p>
@@ -183,7 +183,7 @@ const About = () => {
               </div>
             </div>
             <div className={`info-scroller__content ${activeGoalIndex === 1 ? 'is-active' : ''}`}>
-              <img className="info-scroller__image" src={Density} alt="" />
+              <img className="info-scroller__image" src={Density} alt="Rendering of buildings at intersection" />
               <div>
                 <h4 className="info-scroller__heading color--red">Increase Density</h4>
                 <p>
@@ -195,7 +195,7 @@ const About = () => {
               </div>
             </div>
             <div className={`info-scroller__content ${activeGoalIndex === 2 ? 'is-active' : ''}`}>
-              <img className="info-scroller__image" src={Jobs} alt="" />
+              <img className="info-scroller__image" src={Jobs} alt="Man smiling at camera in front of Detroit D wallpaper" />
               <div>
                 <h4 className="info-scroller__heading color--blue">Grow Job Opportunities</h4>
                 <p>
@@ -209,7 +209,7 @@ const About = () => {
               </div>
             </div>
             <div className={`info-scroller__content ${activeGoalIndex === 3 ? 'is-active' : ''}`}>
-              <img className="info-scroller__image" src={Inclusivity2} alt="" />
+              <img className="info-scroller__image" src={Inclusivity2} alt="Man, woman, and daughter smiling at camera" />
               <div>
                 <h4 className="info-scroller__heading color--teal">Support Inclusivity</h4>
                 <p>

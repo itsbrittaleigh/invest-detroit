@@ -54,7 +54,7 @@ const Celebrating = () => (
         <ScrollAnimation animateOnce={true} animateIn="fadeIn">
           <Parallax y={[-20, 40]}>
             <div className="section-icon__container">
-              <img src={CelebratingIcon} alt="Kitten" className="section-icon" />
+              <img src={CelebratingIcon} alt="Roman numerals XX5" className="section-icon" />
             </div>
           </Parallax>
         </ScrollAnimation>
