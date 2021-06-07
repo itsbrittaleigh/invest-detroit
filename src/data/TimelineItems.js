@@ -33,6 +33,7 @@ import Harris from '../assets/images/timeline/1995_Karen-Harris.jpg';
 import Board from '../assets/images/timeline/1995_DIF-Board.jpg';
 import Feria from '../assets/images/timeline/2013_Feria.jpg';
 import DWB from '../assets/images/timeline/2013_DWB.jpg';
+import Forest from '../assets/images/timeline/2009_Forest.jpg';
 
 const browser = navigator.userAgent;
 const isFirefox = browser.includes('Firefox');
@@ -405,6 +406,10 @@ const TimelineItems2009 = [
     type: 'project',
     title: 'In partnership with Midtown Detroit, Inc., financing was approved to support the redevelopment of the Forest Arms, an historic, four-story building near Wayne State University that was destroyed by fire the previous year and targeted for demolition. The project created 70 residential units and one commercial space and restored a key residential property to productive use.',
     subtitle: 'Project / Business',
+    image: {
+      src: Forest,
+      alt: 'Four-story red apartment building front entrance with cars parked in front'
+    }
   },
 ];
 
