@@ -53,7 +53,7 @@ const Board = [
   },
   {
     name: 'Gary Torgow',
-    title: 'Chairman, Chemical Financial Corporation',
+    title: 'Executive Chairman, TCF Financial Corporation',
   },
   {
     name: 'Laura Trudeau',
@@ -219,7 +219,7 @@ const Staff = [
     title: 'Senior Vice President, Lending',
   },
   {
-    name: 'Cristina M. Thibodeau',
+    name: 'Cristina Thibodeau',
     title: 'Executive Assistant',
   },
   {
@@ -262,7 +262,7 @@ const CDE = [
 const Investment = [
   {
     name: 'James Blanks',
-    title: 'First Independence Bank',
+    title: 'First Independence Bank (Retired)',
   },
   {
     name: 'Kenyetta Bridges',

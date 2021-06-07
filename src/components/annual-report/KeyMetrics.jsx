@@ -9,9 +9,9 @@ import dollarsLeveragedIconBlue from '../../assets/images/icon__dollars-leverage
 import dollarsDeployedIconTeal from '../../assets/images/icon__dollars-deployed--teal.svg';
 import dollarsLeveragedIconTeal from '../../assets/images/icon__dollars-leveraged--teal.svg';
 import heartIcon from '../../assets/images/icon__heart.svg';
-import CovidRelief from '../../assets/images/covid-relief.svg';
-import DollarsLeveraged from '../../assets/images/dollars-leveraged.svg';
-import Deployment from '../../assets/images/program-deployment.svg';
+import CovidRelief from '../../assets/images/covid-relief.png';
+import DollarsLeveraged from '../../assets/images/dollars-leveraged.png';
+import Deployment from '../../assets/images/program-deployment.png';
 import Business from '../../assets/images/km-business.png';
 import Employment from '../../assets/images/km0employment.png';
 import Housing from '../../assets/images/km-housing.png';

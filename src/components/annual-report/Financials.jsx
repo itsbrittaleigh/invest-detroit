@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
-import PortfolioComp from '../../assets/images/portfolio-comp.svg';
+import PortfolioComp from '../../assets/images/portfolio-comp.png';
 
 const Financials = () => {
   return (
