@@ -12,7 +12,7 @@ import Home from './pages/Home';
 import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
-  const TRACKING_ID = '';
+  const TRACKING_ID = 'UA-198999887-1';
   ReactGA.initialize(TRACKING_ID);
 
   return (
