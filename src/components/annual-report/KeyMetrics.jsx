@@ -30,6 +30,9 @@ const KeyMetrics = () => {
             <h2 className="color--white">2020 Key Metrics</h2>
           </div>
         </ScrollAnimation>
+        <ScrollAnimation animateOnce={true} animateIn="fadeIn">
+          <h3 style={{ color: '#8E9093' }}>Deployment Activity by Program</h3>
+        </ScrollAnimation>
         <div className="info-scroller annual-report">
           <ScrollAnimation animateOnce={true} animateIn="fadeIn">
             <nav className="info-scroller__navigation">
@@ -148,7 +151,7 @@ const KeyMetrics = () => {
           <div className="pie-chart__section" style={{ borderBottom: '1px solid #626366' }}>
             <div className="key-metrics-statistic">
               <img className="key-metrics-statistic__image" src={heartIcon} alt="Hearts" style={{ height: '25px' }} />
-              <p className="key-metrics-statistic__label color--white">COVID Relief</p>
+              <p className="key-metrics-statistic__label color--white">Special Activity Related to Covid Relief</p>
               <p className="key-metrics-statistic__number color--white">$3,906,601</p>
             </div>
             <img className="pie-chart__image" src={CovidRelief} alt="Pie chart of covid relief; 23.2% property owner rental relief fund; 9% small business loan relief; 67.8% tech startup stabilization fund" />
