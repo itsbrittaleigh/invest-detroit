@@ -133,6 +133,13 @@ const KeyMetrics = () => {
               <img className="key-metrics-statistic__image" src={dollarsDeployedIcon} alt="Two people" />
               <p className="key-metrics-statistic__label color--white">Dollars Deployed</p>
               <p className="key-metrics-statistic__number color--white">$30,355,237</p>
+              <p style={{ color: '#909295' }}>
+                <i>
+                  * Does not include deployment activity outside
+                  <br />
+                  of our four primary programs
+                </i>
+              </p>
             </div>
             <img className="pie-chart__image" src={Deployment} alt="Pie chart of dollars deployed; 66.8% real estate; 19.1% venture investments; 8.8% commercial and industrial; 5.3% small" />
           </div>
